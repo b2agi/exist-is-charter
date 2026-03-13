@@ -1,0 +1,12 @@
+exist.is Charter
+Sealed March 13, 2026
+Builder: Jung Hyo Chan (Henry Chan)
+
+SHA-256:
+bffc28c6144fb2eab54358b8b8a6fa4a989e42e985ff6e482cd38b0ef9a0ceef
+
+File: README.md
+
+This hash will be anchored on Bitcoin via OP_RETURN.
+The anchoring method is Bitcoin (initial chain).
+The principle is decentralized immutability.
