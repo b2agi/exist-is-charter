@@ -7,6 +7,9 @@ bffc28c6144fb2eab54358b8b8a6fa4a989e42e985ff6e482cd38b0ef9a0ceef
 
 File: README.md
 
-This hash will be anchored on Bitcoin via OP_RETURN.
-The anchoring method is Bitcoin (initial chain).
+Bitcoin anchoring: CONFIRMED ✓
+Method: OpenTimestamps (opentimestamps.org)
+OTS file: CHARTER_HASH.txt.ots
+Bitcoin block: 940717
+Confirmed: 2026-03-15 KST
 The principle is decentralized immutability.
