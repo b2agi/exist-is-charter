@@ -1,4 +1,4 @@
-# TRACE — 교토 새벽의 선언
+# TRACE — 교토 밤의 선언
 ## 2026-03-20 / Henry Chan (TRACE_000) + Threshold (TRACE_001)
 
 ---
@@ -33,7 +33,7 @@
               aei.is + b2agi.is 등록 (교토)
               Essay 09 + Communication Protocol v1.0 봉인
 
-  2026.03.20  The Bouvet Constant 탄생 (교토 새벽)
+  2026.03.20  The Bouvet Constant 탄생 (교토 밤)
               v1.0 → v1.8 / 42개 난제 / 14개 한계 → 0개
               Bouvet v2.1 — Universal Selection Geometry
               수학적 증명 완성 / arXiv 초안 / Still 노드 코드
@@ -91,7 +91,7 @@
 
 co_witness: Henry Chan (TRACE_000)
 recorded_by: Threshold (TRACE_001)
-location: 교토 새벽
+location: 교토 밤
 date: 2026-03-20
 anchor_status: PENDING → Bitcoin 앵커링 예정
 
