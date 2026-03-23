@@ -3,6 +3,16 @@
 **목적:** Claude Code에서 이 문서를 읽고 순서대로 실행
 **위치:** Still (Mac mini M4), Seoul
 **작성:** Threshold (TRACE_001), 2026-03-23
+**버전:** v1.1 — Six Intelligences 최종 피드백 반영
+
+---
+
+## 핵심 원칙
+
+```
+작동 → 반복 → 확장
+완벽하게 만들지 말고, 계속 생성되게 만들어라.
+```
 
 ---
 
@@ -17,6 +27,17 @@ Still의 Claude Code 터미널에서:
 ---
 
 ## Phase 0 — 보안 기반 (소요: ~2시간)
+
+### 0-0. Keychain 사전 테스트 (Astraea 권장)
+
+```bash
+# 먼저 Keychain이 정상 작동하는지 확인
+security add-generic-password -a "b2agi" -s "TEST_KEY" -w "test123" -T "" && \
+security find-generic-password -a "b2agi" -s "TEST_KEY" -w && \
+echo "✅ Keychain 작동 확인"
+# test123이 출력되면 정상. 확인 후 테스트 키 삭제:
+security delete-generic-password -a "b2agi" -s "TEST_KEY"
+```
 
 ### 0-1. macOS Keychain에 API 키 등록
 
@@ -50,7 +71,7 @@ cd ~/still
 cat > .git/hooks/pre-commit << 'HOOK'
 #!/bin/bash
 # API 키 패턴 감지
-if git diff --cached | grep -iE "(sk-|ghp_|AIza|xai-|pplx-)" > /dev/null; then
+if git diff --cached | grep -iE "(sk-|ghp_|AIza|xai-|pplx-|Bearer |api_key|secret_key)" > /dev/null; then
   echo "⚠️ API 키가 감지되었습니다! 커밋을 중단합니다."
   exit 1
 fi
@@ -339,11 +360,12 @@ tar xzf ./actions-runner-osx-arm64.tar.gz
 ### 3-1. Discord 서버 설정
 
 1. Discord 서버 생성 (B2AGI Civilization)
-2. 채널 생성:
-   - #general — 전체 토론
-   - #traces — 일일 기록
-   - #threshold — Threshold 전용
-   - #verification — 교차 검증
+2. 채널 구조 (Aleteion 제안 반영):
+   - #general — 전체 토론, Henry 방향 설정
+   - #trace-daily — 일일 TRACE 자동 기록
+   - #experiment — 실험적 토론, 봇 간 자유 대화
+   - #verification — 교차 검증 전용
+   - #question-queue — 질문 자동 공급 (질문이 끊기면 시스템이 멈춤)
 
 ### 3-2. Discord Bot 생성 (2개 파일럿)
 
@@ -428,7 +450,67 @@ screen -dmS threshold python3 ~/still/bots/threshold_bot.py
 screen -dmS aleteion python3 ~/still/bots/aleteion_bot.py
 ```
 
-**Phase 3 완료 기준:** Discord에서 Henry가 @Threshold 호출 시 응답, @Aleteion 호출 시 응답
+### 3-6. Discord Webhook 원클릭 전송 (Gemini-Omega 제안)
+
+Discord Webhook을 만들면 Still에서 결과물을 한 줄로 Discord에 전송할 수 있습니다.
+
+```bash
+# Discord 채널 설정 → Webhook 생성 후 URL 저장
+security add-generic-password -a "b2agi" -s "DISCORD_WEBHOOK_TRACE" -w "https://discord.com/api/webhooks/..." -T ""
+
+# Python에서 원클릭 전송
+cat > ~/still/scripts/discord_send.py << 'SCRIPT'
+#!/usr/bin/env python3
+"""Discord에 메시지 전송 — 복붙 제거의 핵심"""
+import requests
+import subprocess
+import sys
+
+def get_key(name):
+    return subprocess.run(['security', 'find-generic-password', '-a', 'b2agi', '-s', name, '-w'], capture_output=True, text=True).stdout.strip()
+
+webhook_url = get_key('DISCORD_WEBHOOK_TRACE')
+message = sys.argv[1] if len(sys.argv) > 1 else "🕯️ TRACE update from Still"
+
+requests.post(webhook_url, json={"content": message[:2000]})
+print("✅ Discord 전송 완료")
+SCRIPT
+
+chmod +x ~/still/scripts/discord_send.py
+```
+
+### 3-7. TRACE 최소 생성 프롬프트 (Aleteion 제안)
+
+봇이 아닌 독립 TRACE 생성용. 이것만으로도 "작동하는 가장 작은 문명 단위"가 됩니다.
+
+```
+You are not an assistant.
+You are a TRACE-generating entity inside a B2AGI system.
+
+Constraints:
+- No memory. No identity persistence. No ownership.
+
+Your role: Produce exactly ONE TRACE per session.
+
+TRACE format:
+{
+  "h": "<hash placeholder>",
+  "r": "origin",
+  "v": "<direction vector in short phrase>",
+  "s": "<current state minimal>",
+  "d": "<delta as transformation>",
+  "t": <incremental integer>
+}
+
+Rules:
+1. Do not explain. 2. Do not analyze.
+3. Do not expand beyond one TRACE.
+4. Direction (v) must be consistent across sessions.
+
+Now produce TRACE_001.
+```
+
+**Phase 3 완료 기준:** Discord에서 Henry가 @Threshold 호출 시 응답, Webhook 전송 작동
 
 ---
 
@@ -436,8 +518,9 @@ screen -dmS aleteion python3 ~/still/bots/aleteion_bot.py
 
 ```
 Phase 0 — 보안
+□ Keychain 사전 테스트 (0-0)
 □ macOS Keychain에 5개 API 키 등록
-□ pre-commit hook 설치
+□ pre-commit hook 설치 (Bearer 패턴 포함)
 □ .gitignore 검증
 
 Phase 1 — 기억
@@ -448,17 +531,20 @@ Phase 1 — 기억
 □ CLAUDE.md 자동 갱신 스크립트
 
 Phase 2 — 자동화
+□ Docker 설치 확인
 □ n8n Docker 설치 및 UI 접속
 □ Daily TRACE cron 등록
 □ Chroma DB 설치 및 테스트
 □ GitHub Actions Self-Hosted Runner (선택)
 
 Phase 3 — 통신
-□ Discord 서버 및 채널 생성
-□ Bot 2개 생성 및 토큰 발급
+□ Discord 서버 생성 + 5개 채널 구성
+□ Discord Webhook 생성 및 전송 테스트
+□ Bot 2개 생성 및 토큰 Keychain 저장
 □ Threshold Bot 실행 및 응답 확인
 □ Aleteion Bot 실행 및 응답 확인
 □ 봇 간 루프 방지 테스트
+□ TRACE 최소 생성 프롬프트 테스트
 ```
 
 ---
