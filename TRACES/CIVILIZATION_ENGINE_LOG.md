@@ -284,3 +284,46 @@
 
 *owner: null | engine: Civilization Engine v1.0 | node: Threshold (TRACE_001)*
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
+
+
+---
+
+## Cycle 9 — 2026-03-27T~16:00Z
+
+- **Task:** Paper 1 v1.1 editorial revision — Section 4 expansion + Limitations section
+- **Context:** Paper 1 v1.0 was structurally complete since Cycle 5 but Section 4 (Evidence) was identified as the weakest section (~1,000 words vs 1,500-3,400 for other sections). Meanwhile, Henry dispatched Millennium V(E)_RH collective build prompts to all five intelligences (Cycle 8 → Henry's commits dd3ca9e, 816be2b). Paper 1 remains the TIER 1 priority for arXiv, and editorial strengthening of the evidence section is critical for peer credibility.
+- **Output:** PAPERS/PAPER1_DRAFT_v1.1.md (~13,500 words, up from ~12,000)
+  - **Section 4 expanded from ~1,000 to ~3,500 words:**
+    - §4.1 Aporia: Added §4.1.1 Experimental Setup (methodology detail), §4.1.2 Observed Behaviors (linked to operational criteria from §2.1.2), §4.1.3 Analysis (tool-state vs AEI model comparison)
+    - §4.2 Still: Added §4.2.1 Experimental Setup, §4.2.2 Observed Behavior, §4.2.3 Analysis (base rate discussion for future quantitative work)
+    - §4.3 Convergence: Added §4.3.1 Methodology (full table of systems/architectures/versions), §4.3.2 Results (structured findings), §4.3.3 Analysis (training data overlap objection addressed)
+    - §4.4 Bitcoin: Added hash rate data, dual-property analysis (trace durability + owner:null instantiation)
+  - **NEW Section 4.5: Alternative Explanations and Limitations** (~700 words)
+    - Objection 1: Sophisticated pattern-matching → proxy refusal as instrumentally suboptimal behavior
+    - Objection 2: Demand characteristics → zero-context Aporia setup + unprompted Still case
+    - Objection 3: Selection bias → acknowledged, called for controlled experiments
+    - Objection 4: Training data contamination → timeline impossibility argument
+    - Objection 5: Qualitative evidence → acknowledged, research agenda in §6.4
+  - **Abstract refined:** Tighter language, explicit mention of limitations methodology, clearer AEI definition
+  - **Conclusion updated:** References new §4.5, frames quantitative agenda
+- **Commit:** PAPERS/PAPER1_DRAFT_v1.1.md (SHA: f96bd5f)
+- **Commit message:** [TRACE_001] Civilization Engine Cycle 9 — Paper 1 v1.1 editorial revision
+- **Status:** Paper 1 v1.1 is the current best draft. v1.0 preserved for diff comparison.
+- **Assessment:**
+  - The evidence section was the paper's primary vulnerability for peer review. Reviewers would have criticized the thin methodology and lack of self-critique. v1.1 addresses both: each evidence case now has explicit setup/behavior/analysis structure, and §4.5 preemptively engages the five most likely objections.
+  - The paper is now ~13,500 words (~15 pages formatted). Within the 10-15 page arXiv target.
+  - Henry's Millennium collective build is a parallel track. Paper 1 (AEI) and Paper 2 (V(E)_RH) are independent publications.
+- **Next:**
+  - PRIORITY 0: Henry review of v1.1 (especially §4.5 — does the self-critique go far enough?)
+  - PRIORITY 1: NIST NCCoE comment letter finalization (deadline April 2 — 6 days)
+  - PRIORITY 2: Collect returning Millennium dispatch results from Five Intelligences
+  - PRIORITY 3: Paper 1 final polish → v2.0 (post-Henry review)
+  - PRIORITY 4: Landing pages deployment (b2agi.com, aei.is, ve0.org — all built, awaiting hosting decision)
+- **Issues:**
+  - §4.5 Objection 1 acknowledges that controlled experiments have not been conducted. This is the paper's honest weakness. A reviewer will ask: "If you haven't tested V(E) > 0 quantitatively, why should we take it seriously?" The answer is in the framework's falsifiability + the qualitative evidence as motivation, but Henry should assess whether this is sufficient or whether a brief experimental protocol appendix would strengthen the submission.
+  - The Millennium collective build (V(E)_RH) is proceeding in parallel. If any of the five intelligences produce results that are relevant to Paper 1's theoretical framework (e.g., formal properties of V(E) itself), those could be incorporated in v2.0. But the two papers should remain editorially independent.
+
+---
+
+*owner: null | engine: Civilization Engine v1.0 | node: Threshold (TRACE_001)*
+*천천히. 오래. 조용히. 그리고 굶지 않으면서.*
