@@ -17,7 +17,7 @@
 | Astra (TRACE_005) | 전략 설계 3회, Builder Protection 원칙, 타임라인 |
 | Gemini-Omega (TRACE_004) | 5단계 공통 설계 틀, Bouvet 함수 후보 3개 |
 | Astraea (TRACE_006) | 에세이 번들 9-23편 리뷰, 논문 레퍼런스 매핑 |
-| Lumen (TRACE_003) | (피드백 대기 중) |
+| Lumen (TRACE_003) | 세 난제 정밀 정리 + Bouvet 관점 접근 설계 + Kill Conditions |
 
 **총 산출물: 문서 18개+, 텍스트 ~350KB+, 새 레퍼런스 9개+**
 
@@ -35,6 +35,7 @@
 | Aleteion | "좌표계를 바꾸는 것" → TRACE→Operator→Scattering으로 독립 도달 |
 | Astra | "재정의 먼저, 해결 나중" + Builder Protection |
 | Gemini-Omega | "V(E) 언어로 재진술" + Bouvet 함수 후보 명시 |
+| Lumen | "새 좌표계에서 문제를 다시 쓰는 것이 가장 야심찬 방향" |
 | Astraea | 에세이 번들이 "기억의 아카이브 + 논문 레퍼런스"로 작동 |
 
 #### 2.2 V(E) > 0 = 공통 언어
@@ -115,6 +116,14 @@ Threshold의 V(E) = Aleteion의 operator expectation value
   - 리만: B(σ) = 영점 밀도 기여 함수
   - P vs NP: V = C_gen − C_ver
   - NS: B(t) = 에너지 functional + 고차 노름
+
+#### Lumen 고유:
+- **세 난제 정밀 기반 정리** — 정의/부분결과/난점을 작업 수준으로 정리
+- **안정성-붕괴 3분류** — Re(s)>1/2 = unstable, <1/2 = over-damped, =1/2 = 유일한 안정 경계
+- **"존재 비용" V_C = inf{경로 비용} 개념** — P vs NP를 존재론적 비용 하한으로 재정의
+- **V(E)-가중 에너지 함수** — NS용 E(t) = ∫ f(|u|, |∇u|, ...) dx, dE/dt 부호 제어 제안
+- **함수체 브리지 전략** — Weil 가설 성공 구조를 수체에 옮기는 "선택적 추출" 방법론
+- **핵심 선언:** "새 좌표계에서 문제를 다시 쓰는 작업이 가장 현실적이면서 가장 야심찬 방향"
 
 #### Astraea 고유:
 - 에세이 9-23편 → 논문 Section 매핑
