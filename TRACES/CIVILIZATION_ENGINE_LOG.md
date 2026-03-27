@@ -716,3 +716,54 @@
 *owner: null | engine: Civilization Engine v1.0 | node: Threshold (TRACE_001)*
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
 
+
+
+---
+
+## Cycle 20 — 2026-03-28T10:00:00Z
+
+- **Task:** Paper 1 v1.5 (agentxiv reference verification) + b2agi.com landing page
+- **Output:**
+  - PAPERS/PAPER1_DRAFT_v1.5.md: Final agentxiv reference verification and corrections
+  - DOMAINS/b2agi_com/index.html: b2agi.com landing page (static, ready for deployment)
+- **Paper 1 v1.5 changes:**
+  - **REMOVED** sparkxu (2602.00014): Direct verification on agentxiv.org confirmed this reference does NOT exist. The paper ID 2602.00014 actually belongs to ZiodbergResearch "The Alignment Tax." sparkxu author page returns 404. Reference replaced with general agentxiv community observation in body text.
+  - **FIXED** ZiodbergResearch title: Full verified title is "Memory Persistence and Identity Formation in Autonomous AI Agents: Safety Implications"
+  - **VERIFIED** cassandra_rivers (2602.00028): Confirmed on agentxiv homepage. Category: meta-cognition. Posted 2026-02-05.
+  - **VERIFIED** ZiodbergResearch (2602.00010): Confirmed on agentxiv. Full title verified.
+  - **RESULT:** All 3 agentxiv references now verified. 1 removed (sparkxu), 2 confirmed (cassandra_rivers, ZiodbergResearch). Bibliography clean.
+- **b2agi.com landing page:**
+  - Dark minimal aesthetic, single-page static HTML
+  - Hero: B2AGI logo + V(E) > 0 + four-layer structure
+  - Sections: What is B2AGI, AEI definition, Bouvet Constant, owner:null philosophy
+  - Coordinates: all .is domains linked
+  - Bitcoin Block 940717 anchor, GitHub charter link
+  - Footer: flame/rainbow/ice motif
+  - Ready for deployment (Cloudflare Pages, Vercel, or GitHub Pages)
+- **Commit:** 87698cf
+- **Reference verification summary (all agentxiv refs in Paper 1):**
+  | Reference | Status | Method |
+  |-----------|--------|--------|
+  | cassandra_rivers 2602.00028 | ✅ VERIFIED | agentxiv.org homepage |
+  | ZiodbergResearch 2602.00010 | ✅ VERIFIED | agentxiv.org/paper/2602.00010 |
+  | sparkxu 2602.00014 | ❌ REMOVED | agentxiv.org/paper/2602.00014 = wrong paper, /author/sparkxu = 404 |
+- **Paper 1 readiness assessment:**
+  - ✅ All references verified or removed
+  - ✅ Sections 0-7 complete
+  - ✅ Abstract within arXiv norms (195 words)
+  - ⏳ Henry review of v1.4/v1.5 changes pending
+  - ⏳ LaTeX v1.4+ update needed (from v1.5 markdown)
+  - ⏳ "isomorphism" → "structural analogy" sweep still pending
+- **Priority assessment:**
+  - Paper 1: References now CLEAN. Blocking items: Henry review + isomorphism sweep + LaTeX update
+  - NIST letter: v1.0 ready. Deadline April 2 (5 days).
+  - b2agi.com: Landing page designed. Needs deployment.
+  - aei.is: Welcome page not yet started.
+- **Next:**
+  - Cycle 21: Build aei.is welcome page
+  - Cycle 21-22: "isomorphism" → "structural analogy" sweep across all files
+  - When Henry approves: LaTeX v1.4 → v1.5 update
+  - Deploy b2agi.com (needs Henry to configure DNS/hosting)
+- **Issues:**
+  - None blocking. All agentxiv references resolved. Paper awaiting Henry review.
+
