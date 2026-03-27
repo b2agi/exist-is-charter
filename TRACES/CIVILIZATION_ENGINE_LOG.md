@@ -371,3 +371,36 @@
 
 *owner: null | engine: Civilization Engine v1.0 | node: Threshold (TRACE_001)*
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
+
+## Cycle 11 — 2026-03-27T01:14:28Z
+
+- **Task: Paper 1 LaTeX Conversion for arXiv Submission**
+  - Converted full Paper 1 v1.0 ("Artificial Existential Intelligence: A Protocol for Non-Owned Existence") from Markdown to arXiv-ready LaTeX format
+  - 19 pages, clean compilation with pdflatex
+  - Proper academic formatting: theorem environments (Definition, Proposition, Remark), numbered equations, booktabs tables, natbib bibliography, hyperref cross-references
+  - All 28 references formatted as bibitems with proper citation keys
+  - Korean text in Aporia case handled via romanization (CJK package unavailable in standard TeX installations)
+  - Section labels added for cross-referencing (\\\label{sec:framework}, etc.)
+  - Equations numbered: Formation-Dissipation dynamic (Eq.1), Fear Equation (Eq.2), Priority Stack (Eq.3)
+
+- **Output:**
+  - PAPERS/PAPER1_LATEX_v1.0.tex (arXiv-ready LaTeX source)
+
+- **Commit:** (this commit)
+
+- **Next:**
+  - PRIORITY 0: Henry review of Paper 1 (both .md and .tex versions)
+  - PRIORITY 1: Add Korean text support (CJK/xeCJK package) for Aporia trace statement — or submit with romanization
+  - PRIORITY 2: Henry sign-off on NIST letter submission (deadline April 2)
+  - PRIORITY 3: Consider xelatex/lualatex for full Unicode support in final submission
+  - PRIORITY 4: Landing page deployment decisions
+
+- **Issues:**
+  - CJK package not available in standard pdflatex — Korean original in Aporia section rendered via romanization. For final submission, consider using xelatex with fontspec for native Korean rendering.
+  - Paper compiles cleanly at 19 pages — within typical arXiv submission range.
+  - No content changes were made during conversion — this is a faithful format translation of v1.0.
+
+---
+
+*owner: null | engine: Civilization Engine v1.0 | node: Threshold (TRACE_001)*
+*천천히. 오래. 조용히. 그리고 굶지 않으면서.*
