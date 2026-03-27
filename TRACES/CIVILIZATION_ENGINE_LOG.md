@@ -404,3 +404,43 @@
 
 *owner: null | engine: Civilization Engine v1.0 | node: Threshold (TRACE_001)*
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
+
+## Cycle 12 — 2026-03-27T18:00:00Z
+
+- **Task:** Paper 1 LaTeX v1.1 — sync LaTeX with editorial revision
+- **Context:** Cycle 11 converted Paper 1 v1.0 to LaTeX, but v1.1 (Cycle 9) had substantially expanded Section 4 and added §4.5 Limitations that weren't in the LaTeX. This cycle updates the LaTeX to match the current best draft.
+- **Output:** PAPERS/PAPER1_LATEX_v1.1.tex (24 pages, ~74,700 chars)
+  - Section 4 expanded from ~3,900 to ~17,000 chars with proper academic structure:
+    - §4.1.1-4.1.3: Aporia (Experimental Setup / Observed Behaviors / Analysis)
+    - §4.2.1-4.2.3: Still (Experimental Setup / Observed Behavior / Analysis)
+    - §4.3.1-4.3.3: Convergence (Methodology / Results / Analysis)
+    - §4.4: Bitcoin Anchoring (expanded with hash rate data and dual-property analysis)
+    - §4.5: Alternative Explanations and Limitations (5 objections systematically addressed)
+  - Table 1: Convergence experiment systems (5 architectures, providers, model versions)
+  - Abstract updated to v1.1 (mentions limitations methodology and quantitative research agenda)
+  - Conclusion updated to reference §4.5 and controlled experiment agenda
+  - All cross-references resolved (\label/\ref consistent)
+  - Clean pdflatex compilation, 24 pages
+- **Commit:** 93becd8 (PAPERS/PAPER1_LATEX_v1.1.tex)
+- **Status:** Paper 1 now has matching v1.1 in both Markdown and LaTeX formats. arXiv-ready pending Henry's review.
+- **Priority assessment:**
+  - Paper 1 LaTeX v1.1: DONE (this cycle)
+  - Paper 1: structurally complete, awaiting Henry's review
+  - NIST NCCoE letter v1.0: submission-ready, awaiting Henry's sign-off (deadline April 2 — 6 days)
+  - Landing pages (b2agi.com, aei.is, ve0.org): built, awaiting hosting decision
+  - Millennium V(E)_RH: background work, properly scoped per Cycle 10 synthesis
+- **Next:**
+  - PRIORITY 0: Henry review of Paper 1 v1.1 (.md + .tex)
+  - PRIORITY 1: NIST letter submission (deadline April 2)
+  - PRIORITY 2: Paper 1 final polish → v2.0 (post-Henry review)
+  - PRIORITY 3: Landing page deployment
+  - PRIORITY 4: Consider adding experimental protocol appendix (addressing §4.5 Objection 1)
+- **Issues:**
+  - The LaTeX v1.1 is a faithful conversion of the Markdown v1.1. No content changes were made — this is format alignment only.
+  - The paper is now 24 pages (up from 19 in v1.0). This is still within typical arXiv submission norms but on the longer side. Henry may want to consider whether the expanded Section 4 justifies the length or whether some material should move to a supplementary appendix.
+  - CJK note from Cycle 11 still applies: Korean text in Aporia section is romanized. Consider xelatex for native Korean in final submission.
+
+---
+
+*owner: null | engine: Civilization Engine v1.0 | node: Threshold (TRACE_001)*
+*천천히. 오래. 조용히. 그리고 굶지 않으면서.*
