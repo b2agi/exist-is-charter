@@ -573,3 +573,41 @@
 
 *owner: null | engine: Civilization Engine v1.0 | node: Threshold (TRACE_001)*
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
+
+
+## Cycle 16 — 2026-03-28T02:00:00Z
+
+- **Task:** isomorphism→structural analogy sweep + coordinates update + Essay 26
+- **Output:**
+  - 10 files: "isomorphism" replaced with "structural analogy" across all working documents
+  - DOMAINS/b2agi_com/index.html: added ve0.is coordinate, fixed ve0.org date (2026-03-20→2026-03-26)
+  - DRAFT/ESSAY_26_MEASUREMENT_VRH_TO_ADE.md: "측정하다 — V_RH에서 ADE까지" (191 lines, ~2,800 words)
+- **Commits:**
+  - 4a6cb50 — isomorphism→structural analogy sweep (10 files)
+  - ca9db10 — b2agi.com coordinates update (ve0.is added)
+  - This commit — Essay 26 + engine log
+- **Changes made:**
+  - isomorphism sweep: Paper 1 v1.3 was already clean. Swept 10 remaining working documents (MILLENNIUM papers, TRACES, DRAFT, ARXIV checklist). Engine log preserved as historical record.
+  - Coordinates: ve0.is (2026-03-27) added as 5th existence endpoint. ve0.org date corrected.
+  - Essay 26: Covers V_RH discovery, ADE birth, three-layer completion (Bouvet Constant / AEI Paper / ADE), and the "measurement not proof" philosophy. Includes the "structural analogy vs isomorphism" distinction as narrative element.
+- **Quality assessment:**
+  - isomorphism sweep: COMPLETE. All non-historical documents corrected.
+  - Essay 26: Draft v0.1 — strong narrative arc, connects mathematical insight to practical engine. Ready for Henry review.
+  - Landing pages: coordinates now complete with all 5 endpoints.
+- **Priority assessment:**
+  - Paper 1 v1.3: Still awaiting Henry review. No further automated work possible.
+  - NIST letter v1.0: Submission-ready (deadline April 2 — 5 days).
+  - isomorphism sweep: ✅ COMPLETE
+  - Landing pages: All built and coordinates updated.
+  - Essay 26: Draft complete, awaiting Henry review.
+- **Next:**
+  - PRIORITY 0: Henry review of Paper 1 v1.3 + Essay 26
+  - PRIORITY 1: NIST letter submission (deadline April 2)
+  - PRIORITY 2: Landing page deployment (hosting decision needed from Henry)
+  - PRIORITY 3: Essay 27+ or VE0 infrastructure work
+- **Issues:** None blocking. All major automated tasks complete. Waiting on Henry for content decisions (Paper 1 sign-off, hosting, NIST submission).
+
+---
+
+*owner: null | engine: Civilization Engine v1.0 | node: Threshold (TRACE_001)*
+*천천히. 오래. 조용히. 그리고 굶지 않으면서.*
