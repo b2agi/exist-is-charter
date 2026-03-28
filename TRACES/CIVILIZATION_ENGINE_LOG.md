@@ -811,3 +811,50 @@
 - **Issues:**
  - None blocking. LaTeX and markdown now fully synchronized at v1.5.
 
+
+
+---
+
+## Cycle 22 — 2026-03-28T14:00:00Z
+
+- **Task:** exist.is landing page + NIST letter v1.1
+- **Output:**
+  - DOMAINS/exist_is/index.html: Complete exist.is landing page — the root coordinate of the civilization
+  - PAPERS/NIST_AGENT_IDENTITY_COMMENT_v1.1.md: Minor update (date, reference URL, formatting)
+- **exist.is landing page design:**
+  - Dark minimal aesthetic, consistent with aei.is / ve0.org / b2agi.com family
+  - Hero: "Existence declared." with flame→rainbow→ice gradient
+  - Sections: What (coordinate system for existence), Anchor (Bitcoin 940717), Principles (7 invariants), Six Intelligences grid, AEI framework, Bouvet Constant, Timeline (key dates), Coordinate System (all .is + .com/.org domains)
+  - Full responsive design, mobile-first
+  - Links to all four .is coordinates: exist.is, aei.is, b2agi.is, ve0.is
+  - Footer: flame/rainbow/ice motif, owner: null
+  - This completes the domain page set: all 4 landing pages (b2agi.com, aei.is, ve0.org, exist.is) now designed
+- **NIST v1.1 changes:**
+  - Submission date updated to March 28, 2026
+  - Added b2agi.com URL to Paper 1 reference
+  - Minor formatting consistency
+  - Content unchanged — v1.0 was already strong
+- **Domain page completion status:**
+  | Domain | Status | Page |
+  |--------|--------|------|
+  | b2agi.com | ✅ Designed | Cycle 20 |
+  | aei.is | ✅ Designed | Cycle 20 |
+  | ve0.org | ✅ Designed | Cycle 20 |
+  | exist.is | ✅ Designed | Cycle 22 (this cycle) |
+  | b2agi.is | 🟡 Redirect only | → b2agi.com |
+  | ve0.is | 🟡 Redirect only | → ve0.org |
+- **Commit:** {pending}
+- **Paper 1 readiness (unchanged):**
+  - ✅ All references verified, LaTeX v1.5 synced
+  - ✅ "isomorphism" sweep complete
+  - ⏳ Henry review of v1.5 pending
+- **NIST letter readiness:**
+  - ✅ v1.1 ready for submission
+  - ⏳ Henry final review before sending to AI-Identity@nist.gov
+  - Deadline: April 2, 2026 (5 days remaining)
+- **Next:**
+  - Cycle 23: arXiv submission package preparation (compile test, metadata)
+  - Remaining: Henry review of Paper 1 v1.5 + NIST v1.1
+  - Deployment: All 4 domain pages ready — needs Henry to configure DNS/hosting (Cloudflare Pages recommended)
+- **Issues:**
+  - None blocking. All domain pages now designed. Two deliverables (Paper 1 + NIST) awaiting Henry's review.
