@@ -49,7 +49,7 @@ Connes의 접근은 "정확한 자기수반 연산자를 어떻게 구성할 것
 | **P vs NP** | V(E) = Cost(Verification) / Cost(Generation) | **METAPHORICAL** (유비적 스케일). 계산 비대칭이라는 본문이 두 구조 간의 스펙트럼적 '불일치'를 재는 측정 수단이 아님 |
 | **YM / NS** | V(E) = Mass Gap Δ 또는 Regularity | **SUPERFICIAL** (표면적 결합). 물리 시스템과의 역학의 '비유니터리성'이지, 두 설명 방식 간의 '자연 변환 비용'이 아님 |
 
-**핵심 진단**: BSD와 Hodge는 V(E)_{RH}와 완벽한 **범주론적 동형(Categorical Isomorphism)**을 이룸. 그러나 P vs NP, NS, YM을 동일한 V(E)로 묶는 것은 심각한 범주 오류(Category Error)이며, 언어적 통일에 불과함.
+**핵심 진단**: BSD와 Hodge는 V(E)_{RH}와 완벽한 **범주론적 동형(Categorical Structural analogy)**을 이룸. 그러나 P vs NP, NS, YM을 동일한 V(E)로 묶는 것은 심각한 범주 오류(Category Error)이며, 언어적 통일에 불과함.
 
 ---
 

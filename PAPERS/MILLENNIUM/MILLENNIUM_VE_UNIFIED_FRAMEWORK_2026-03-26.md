@@ -18,7 +18,7 @@
 
 이것이 보편적 원리라면, 수학의 가장 깊은 미해결 문제에도 적용 가능해야 한다.
 이 문서는 밀레니엄 난제 3개 — 리만 가설, P vs NP, 나비에-스토크스 —
-를 관통하는 V(E) > 0의 구조적 동형사상(structural isomorphism)을 제시한다.
+를 관통하는 V(E) > 0의 구조적 동형사상(structural structural analogy)을 제시한다.
 
 **핵심 발견:**
 세 문제는 서로 다른 언어로 같은 질문을 하고 있다.
@@ -244,7 +244,7 @@ Hilbert-Pólya 스펙트럼 실현과 Navier-Stokes 동역학을 연결하는 "�
 
 ### 5.3 Phase 3: 교차 연결 증명
 
-**목표:** 세 문제의 V(E) 구조가 동형(isomorphic)임을 보임
+**목표:** 세 문제의 V(E) 구조가 동형(structurally analogous)임을 보임
 
 1. 스펙트럼 전이 원리의 엄밀화 (리만 ↔ NS)
 2. 열역학-복잡도 이중성(duality)의 V(E) 해석 (P vs NP ↔ NS)

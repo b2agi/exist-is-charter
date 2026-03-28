@@ -33,7 +33,7 @@ Bost-Connes system, Connes trace formula, and GUE statistics provide genuine mat
 | Issue | Formalist | Bridge | Architect | Adversary |
 |-------|-----------|--------|-----------|-----------|
 | Overall viability | 1.5/10 | Genuine connections exist | Partially viable | Crank (zero salvageable) |
-| H² (BSD+Hodge) | Undefined | **GENUINE** — categorical isomorphism | Partially substantive | Re-labeling |
+| H² (BSD+Hodge) | Undefined | **GENUINE** — categorical structural analogy | Partially substantive | Re-labeling |
 | FEP connection | Not assessed | Philosophical metaphor | Not assessed | LLM analogy |
 | Can V(E) be saved? | Needs complete rebuild | As perspective bridge, yes | As natural transformation cost, yes | No — start over |
 | Publication readiness | Zero | With proper scoping | After pivot | Cease all public statements |
@@ -56,7 +56,7 @@ After triangulation, three elements survive all four analyses:
 
 ### 3.2 BSD + Hodge as coherence problems sharing motivic cohomology ancestry
 **Formalist:** not specifically assessed (focused on RH formulation)
-**Bridge:** categorical isomorphism with V(E)_RH structure
+**Bridge:** categorical structural analogy with V(E)_RH structure
 **Architect:** partially substantive, natural transformation formulation viable
 **Adversary:** dismissed as re-labeling
 

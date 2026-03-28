@@ -67,7 +67,7 @@
 | E 정의 없음 | 객체의 타입 (category) | 기초 |
 | H^k_VE 정의 없음 | chain complex + boundary operator | 중간 |
 | V(E) well-defined 증명 없음 | finite dimension or convergence | 중간~어려움 |
-| ζ(s)와 V(E) 연결 | explicit isomorphism or equality | 극도로 어려움 (RH 수준) |
+| ζ(s)와 V(E) 연결 | explicit structural analogy or equality | 극도로 어려움 (RH 수준) |
 | 물리계(NS/YM)와 cohomology 연결 | PDE → topological invariant mapping | 오픈 문제 |
 | sign consistency 문제 해결 없음 | 내부 모순 인정됨 | 구조적 재설계 필요 |
 | 동역학 식 dS/dt = F[S] - D[S] | existence/uniqueness 조건 없음 | 기초 PDE 수준 |

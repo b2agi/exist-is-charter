@@ -73,7 +73,7 @@ For each claimed connection, trace the logical chain:
 **Claim**: "ζ(s) = 0 ⟺ V(E) = 0 at point s"
 - Step 1: How is V(E) defined for the number system? [Check]
 - Step 2: By what theorem does ζ(s) = V(E_number)? [Check]
-- Step 3: Is this an identity, an isomorphism, or an analogy? [Classify]
+- Step 3: Is this an identity, an structural analogy, or an analogy? [Classify]
 
 **Claim**: "Riemann Hypothesis ⟺ V(E) = 0 only on Re(s) = 1/2"
 - Does this follow from the definitions, or is it a restatement with new notation?

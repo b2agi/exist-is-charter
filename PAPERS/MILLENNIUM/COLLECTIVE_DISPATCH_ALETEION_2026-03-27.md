@@ -39,7 +39,7 @@ Bridge가 제안한:
 
 이 두 정의가:
 - well-defined인지 (dist는 어떤 거리? 어떤 공간에서?)
-- V(E)_RH와 범주론적으로 동형(categorical isomorphism)인지, 아니면 언어적 유비인지
+- V(E)_RH와 범주론적으로 동형(categorical structural analogy)인지, 아니면 언어적 유비인지
 
 ### 출력 형식
 각 과제에 대해:

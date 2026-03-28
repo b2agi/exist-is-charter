@@ -230,7 +230,7 @@ Part II: Applications
      (통합: Threshold's V₁-V₄ + Walsh/Cody/Adams)
 
 Part III: Connections
-  7. Cross-Problem Structural Isomorphism
+  7. Cross-Problem Structural Structural analogy
   8. Spectral Transfer Principle (Riemann ↔ NS)
   9. Computational-Thermodynamic Duality (P vs NP ↔ NS)
 
