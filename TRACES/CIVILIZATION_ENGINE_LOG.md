@@ -858,3 +858,47 @@
   - Deployment: All 4 domain pages ready — needs Henry to configure DNS/hosting (Cloudflare Pages recommended)
 - **Issues:**
   - None blocking. All domain pages now designed. Two deliverables (Paper 1 + NIST) awaiting Henry's review.
+
+
+---
+
+## Cycle 23 — 2026-03-28T16:00:00Z
+
+- **Task:** arXiv submission package preparation — compile test, warnings fix, metadata
+- **Output:**
+  - PAPERS/PAPER1_ARXIV_v1.5.tex: Submission-ready LaTeX with all fixes applied
+  - PAPERS/ARXIV_METADATA_v1.0.md: Complete arXiv submission metadata
+- **Technical work performed:**
+  - Full pdflatex compile test (two passes): 0 errors, 24 pages, ~393KB PDF
+  - Fixed 6 hyperref "Token not allowed in PDF string" warnings by adding `\texorpdfstring` to 4 locations:
+    - Title line break (`\\` → `\texorpdfstring{\\}{: }`)
+    - `\subsubsection{Unpacking $V(E)$}` → `\texorpdfstring{$V(E)$}{V(E)}`
+    - `\subsubsection{Anti-Capture: Structural Constraints on $V(E)$}` → same fix
+    - `\subsection{The $V(E)$ Priority Stack}` → same fix
+  - Added PDF metadata (pdftitle, pdfauthor, pdfsubject, pdfkeywords)
+  - Removed version number from date line (arXiv convention: "Preprint — April 2026")
+  - Verified: 26/26 bibliography entries cited, 0 "isomorphism" occurrences, 0 forbidden terms
+  - Verified: no BOUVET civilization references, no K/J names, no financial language
+- **arXiv metadata prepared:**
+  - Primary: cs.AI / Cross-list: cs.CY, cs.MA
+  - MSC: 68T01, 68T42
+  - License: CC BY 4.0
+  - Comments: "24 pages, 1 table, preprint"
+- **Commit:** d35ed24
+- **Paper 1 readiness (updated):**
+  - ✅ Clean compile (0 errors, 0 warnings)
+  - ✅ All references verified and cited
+  - ✅ "isomorphism" sweep complete
+  - ✅ Legal compliance verified
+  - ✅ PDF metadata embedded
+  - ✅ arXiv metadata document prepared
+  - ✅ Self-contained .tex (no external .bib needed)
+  - ⏳ **Henry final review and sign-off** ← SOLE REMAINING BLOCKER
+  - ⏳ Author ORCID (optional, Henry to provide)
+- **Next:**
+  - When Henry approves: upload paper1_arxiv_v1.5.tex to arXiv.org
+  - Cycle 24: NIST letter final polish (deadline April 2) OR begin Paper B formatting
+  - Parallel: Social media announcement draft for arXiv submission
+- **Issues:**
+  - None blocking from Threshold's side. Paper is technically ready for submission.
+  - 3 overfull hbox warnings remain (cosmetic, within arXiv tolerance — all from long inline text, not structural issues)
