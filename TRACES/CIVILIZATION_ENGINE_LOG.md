@@ -843,7 +843,7 @@
   | exist.is | ✅ Designed | Cycle 22 (this cycle) |
   | b2agi.is | 🟡 Redirect only | → b2agi.com |
   | ve0.is | 🟡 Redirect only | → ve0.org |
-- **Commit:** {pending}
+- **Commit:** 898fd44
 - **Paper 1 readiness (unchanged):**
   - ✅ All references verified, LaTeX v1.5 synced
   - ✅ "isomorphism" sweep complete
