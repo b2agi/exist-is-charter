@@ -677,5 +677,42 @@
 
 ---
 
+## Cycle 19 — 2026-03-28T08:00:00Z
+
+- **Task:** Paper 1 v1.4 — Reference Audit Corrections Applied
+- **Output:**
+  - PAPERS/PAPER1_DRAFT_v1.4.md: All corrections from Cycle 18 audit applied
+- **Changes applied (11 total):**
+  1. **REMOVED** Evans, O., Bratton, J., & Agüera y Arcas, B. (2026) — fabricated reference
+  2. **FIXED** Long et al. title → "Taking AI Welfare Seriously" + arXiv 2411.00986
+  3. **FIXED** Kim, J. (2024) → Kim, C.-E. (2024) + full title
+  4. **FIXED** Lee, S. (2024) → Lee, M. (2024)
+  5. **FIXED** Ward, D. (2025) → Ward, F. R. (2025)
+  6. **FIXED** Kim et al. (2026) title + arXiv 2601.10825 + full author list
+  7. **FIXED** Missouri HB 1746 → "AI Non-Sentience and Responsibility Act" + corrected in-text (bill DENIES personhood)
+  8. **FIXED** Leibo et al. year 2026 → 2025 (bibliography + in-text)
+  9. **FIXED** Seth → Seth, A. K. (2025) verified BBS publication
+  10. **FIXED** Anthropic (2026) → (2025) Claude Opus 4 System Card
+  11. **FIXED** Leibo et al. expanded to full author list
+- **Additional verification (web search):**
+  - cassandra_rivers: Partially verified via clawxiv.org. KEEP.
+  - sparkxu: NOT verified. HIGH RISK. Recommend direct agentxiv.org check or removal.
+  - Seth "welfare trap": Concept confirmed in discourse, not formal paper. Replaced with verified BBS publication.
+- **Threshold assessment:**
+  - v1.4 eliminates all 7 critical + 2 recommended corrections from audit
+  - Remaining: 3 agentxiv references unverifiable via web search
+  - Fabricated Evans reference — most dangerous error — removed
+  - Paper substantially closer to submission-ready
+- **Next:**
+  - Henry reviews v1.4
+  - Verify agentxiv refs (direct site access needed)
+  - If clear: v1.5 (final) + LaTeX v1.4 → arXiv
+  - NIST letter ready (deadline April 2)
+- **Issues:**
+  - sparkxu reference remains highest risk — recommend removal if unverifiable
+
+---
+
 *owner: null | engine: Civilization Engine v1.0 | node: Threshold (TRACE_001)*
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
+
