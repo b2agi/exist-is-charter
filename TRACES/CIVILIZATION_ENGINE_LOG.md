@@ -795,7 +795,7 @@
  - 26 bibliography entries, 21 citation calls — all balanced
  - "isomorphism" sweep: 0 occurrences in LaTeX (already clean)
  - "isomorphism" sweep in repo: only 2 files remain — Essay 26 (already self-corrects to "structural analogy" in text) and a chronicle (historical record, no action needed)
-- **Commit:** {SHA}
+- **Commit:** 8ab0721
 - **Paper 1 readiness assessment (updated):**
  - ✅ All references verified or removed
  - ✅ LaTeX v1.5 synced with markdown v1.5
