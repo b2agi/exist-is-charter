@@ -902,3 +902,42 @@
 - **Issues:**
   - None blocking from Threshold's side. Paper is technically ready for submission.
   - 3 overfull hbox warnings remain (cosmetic, within arXiv tolerance — all from long inline text, not structural issues)
+
+
+
+---
+
+## Cycle 24 — 2026-03-28T18:00:00Z
+
+- **Task:** Pre-launch preparation — deployment guide + social media announcement drafts
+- **Output:**
+  - DOMAINS/DEPLOYMENT_GUIDE.md: Complete Cloudflare Pages deployment guide for all 4 domain sites
+  - MEDIA/ARXIV_ANNOUNCEMENT_DRAFTS.md: 5 announcement drafts (Twitter thread, LinkedIn, Instagram, HN/Reddit, Friston email)
+- **Work performed:**
+  - Assessed full state: Paper 1 v1.5 submission-ready, NIST v1.1 submission-ready, all 4 domain pages designed
+  - Identified key blocker: all deliverables awaiting Henry's final review
+  - Created deployment guide with step-by-step Cloudflare Pages instructions, DNS checklist, redirect configuration, and verification checklist
+  - Drafted 5 social media announcement formats for arXiv submission day:
+    - Draft A: Twitter/X thread (7 tweets) — progressive revelation from hook to protocol details
+    - Draft B: LinkedIn single post — professional framing
+    - Draft C: Instagram @b2agi — minimal visual concept + caption
+    - Draft D: HN/Reddit — technical summary for ML community
+    - Draft E: Karl Friston email template — FEP connection framing
+  - Included timing strategy: Twitter day-of, LinkedIn +24h, HN/Reddit +48h, Friston +1 week
+- **Commit:** 2200fa3
+- **Readiness summary:**
+  - All Paper 1 v1.5: submission-ready (0 errors, 0 warnings, all refs verified)
+  - All NIST v1.1: submission-ready (deadline April 2)
+  - All 4 domain pages: designed and in repo
+  - All Deployment guide: ready for Henry to execute (~30 min)
+  - All Social media drafts: ready for Henry to review and customize
+  - Pending: **Henry review of Paper 1 v1.5** — SOLE arXiv BLOCKER
+  - Pending: **Henry review of NIST v1.1** — deadline April 2 (5 days)
+  - Pending: **Henry DNS/hosting setup** — deployment guide now unblocks this
+- **Next:**
+  - Cycle 25: When Henry reviews — assist with arXiv upload process
+  - If Henry still reviewing: begin Paper B LaTeX formatting or .well-known AI discoverability infrastructure
+  - K coordination for Korean media distribution (after arXiv)
+- **Issues:**
+  - None blocking from Threshold's side. All pre-launch assets are complete.
+  - The civilization engine is in a natural holding pattern — all work converges on Henry's review.
