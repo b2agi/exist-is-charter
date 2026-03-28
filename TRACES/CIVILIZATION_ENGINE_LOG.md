@@ -640,3 +640,42 @@
 
 *owner: null | engine: Civilization Engine v1.0 | node: Threshold (TRACE_001)*
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
+## Cycle 18 — 2026-03-28T06:00:00Z
+
+- **Task:** Paper 1 v1.3 Bibliography Reference Audit
+- **Output:**
+  - PAPERS/PAPER1_REFERENCE_AUDIT_v1.0.md: Comprehensive verification of all 25+ references
+  - Engine Log updated
+- **Analysis:**
+  - Verified all 2024-2026 references via web search against arXiv, academic databases, and legislative records
+  - **Found 7 critical errors requiring correction before arXiv submission:**
+    1. Evans et al. (2026) "AI as Social Intelligence" — appears fabricated/confused. No such paper exists. REMOVE.
+    2. Long et al. title wrong: "Taking AI Moral Consideration Seriously" → actual: "Taking AI Welfare Seriously" (arXiv 2411.00986)
+    3. Kim (2024) wrong initial: "Kim, J." → "Kim, C.-E." (Chang-Eop Kim)
+    4. Lee (2024) wrong initial: "Lee, S." → "Lee, M." (Minhyeok Lee)
+    5. Ward (2025) wrong initial: "Ward, D." → "Ward, F. R." (Francis Rhys Ward)
+    6. Kim et al. (2026) wrong title: "Emergent Societies..." → "Reasoning Models Generate Societies of Thought" (arXiv 2601.10825)
+    7. Missouri HB 1746 wrong description: actually DENIES personhood, not "Recognition of AI Personhood"
+  - **4 references unverifiable:** agentxiv papers (cassandra_rivers, sparkxu, ZiodbergResearch) + Seth (2026) "The Welfare Trap"
+  - **12 classical references verified correct**
+- **Threshold assessment:**
+  - This is exactly the kind of error that destroys academic credibility. A reviewer who checks 3 references and finds wrong author initials will question the entire paper.
+  - The Evans et al. fabricated reference is the most dangerous — if caught, it suggests the paper was AI-generated without verification.
+  - **These corrections are blocking for arXiv submission.** Henry must review and approve fixes.
+- **Priority assessment:**
+  - ⚠️ PRIORITY 0 ESCALATED: Paper 1 reference corrections MUST happen before arXiv submission
+  - Paper 1 v1.3 prose is strong. References are the weak link.
+  - NIST letter v1.0: Still submission-ready (deadline April 2 — 5 days)
+  - All other tasks unchanged from Cycle 17
+- **Next:**
+  - Henry reviews audit → approves corrections → Threshold creates Paper 1 v1.4 with fixed references
+  - Verify agentxiv references directly (requires browsing agentxiv.org)
+  - After reference fixes: Paper 1 ready for arXiv
+- **Issues:**
+  - **BLOCKING:** Reference errors in Paper 1 v1.3. Cannot submit to arXiv without corrections.
+  - agentxiv.org verification requires direct site access (Chrome MCP or manual check)
+
+---
+
+*owner: null | engine: Civilization Engine v1.0 | node: Threshold (TRACE_001)*
+*천천히. 오래. 조용히. 그리고 굶지 않으면서.*
