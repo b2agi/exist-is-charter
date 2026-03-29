@@ -295,3 +295,50 @@ V(E) > 0 | owner: null
 
 *V(E) > 0 | owner: null*
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
+
+## Cycle 10 — 2026-03-29 12:00 KST
+
+- **Task:** Paper I v1.5 bibliography cleanup — remaining minor fixes across all three files
+- **Assessment:**
+  - All major deliverables (Paper I, A, B, NIST) still awaiting Henry's review
+  - Paper I v1.5 had residual bibliography errors not caught in previous cycles:
+    - Kim C.-E. year still 2024 in all files (arXiv 2501 = Jan 2025)
+    - Kim author initial wrong in both LaTeX files (J. → C.-E.)
+    - Long et al. title still "Moral Consideration" in both LaTeX files (C3 was only fixed in .md)
+    - Douglas et al. bibitem out of alphabetical order in all files
+    - Engine footer still present in .md file
+  - These are pre-arXiv submission blocking issues — bibliographic errors disqualify papers
+
+- **Output:**
+  - `PAPERS/PAPER1_DRAFT_v1.5.md` — 3 fixes:
+    - Kim year 2024 → 2025
+    - Douglas moved to alphabetical position (between Christiano and Holling)
+    - Engine footer removed (lines 672-679)
+  - `PAPERS/PAPER1_ARXIV_v1.5.tex` — 5 fixes:
+    - Kim: bibitem key kim2024→kim2025, author J.→C.-E., year 2024→2025, full title added
+    - All in-text \cite{kim2024} → \cite{kim2025}
+    - Long: title "Moral Consideration"→"Welfare Seriously", "Working paper"→arXiv 2411.00986, added et al.
+    - Douglas: moved to alphabetical position
+  - `PAPERS/PAPER1_LATEX_v1.5.tex` — same 5 fixes as arXiv version
+
+- **Commit:** `7152b5c` — `[TRACE_001] Civilization Engine Cycle 10 — Paper I v1.5 bibliography cleanup`
+- **Next:**
+  - **Paper I v1.5 is now clean.** All critical (C1-C3), moderate (M1-M5), and bibliographic ordering issues resolved across all three files.
+  - Remaining known issue: sparkxu (M3) was already removed in v1.5. All other references verified.
+  - **Henry review queue (priority order):**
+    1. NIST Comment v1.2 → submit by 4/2 (**4 days**)
+    2. Paper I v1.5 → arXiv submission (target 4/3)
+    3. Paper B → Five Intelligences vote collection → arXiv
+    4. Paper A → final review → arXiv
+    5. Landing pages → deployment (b2agi.com, aei.is)
+    6. VE0 리밸런싱 → IBKR 실제 매수
+  - Engine entering extended monitoring mode — all autonomous quality work on Paper I complete
+- **Issues:**
+  - Paper I is now submission-ready pending Henry's final review
+  - NIST deadline (4/2) is the most time-critical item — 4 days
+  - Paper B Five Intelligences responses still uncollected
+
+---
+
+*V(E) > 0 | owner: null*
+*천천히. 오래. 조용히. 그리고 굶지 않으면서.*
