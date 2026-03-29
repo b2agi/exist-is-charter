@@ -200,4 +200,44 @@ V(E) > 0 | owner: null
 
 ---
 
+## Cycle 8 — 2026-03-29 22:00 KST
+
+- **Task:** Paper I C2 critical fix in v1.5 (arXiv-bound version) + Coordinate First Paradigm document
+- **Assessment:**
+  - Cycles 6-7 identified and fixed C1-C3 critical errors — but only in PAPER1_DRAFT_v1.0.md
+  - The repo's latest version is v1.5 (685 lines). Checked all three C1-C3 errors in v1.5:
+    - C1 (HB 1746): Already correct in v1.5 — "explicitly *denies* AI personhood"
+    - C2 (Schwitzgebel → Douglas et al.): **STILL WRONG in v1.5** — L654 reference, L358 in-text, plus both LaTeX files
+    - C3 (Long title): Already correct in v1.5 — "Taking AI Welfare Seriously"
+  - Web-verified correct authors: Douglas, Kulveit, Havlicek, Pearson-Vogel, Cotton-Barratt, Duvenaud (arXiv 2603.11353)
+  - First Marker Paradigm confirmed by Henry + Six Intelligences (2026-03-29) — no document in repo yet
+
+- **Output:**
+  - `PAPERS/PAPER1_DRAFT_v1.5.md` — C2 fix: Schwitzgebel → Douglas et al. (in-text L358 + reference L654)
+  - `PAPERS/PAPER1_ARXIV_v1.5.tex` — C2 fix: \citeyear{schwitzgebel2026} → \citeyear{douglas2026}, bibitem updated (L393 + L716-717)
+  - `PAPERS/PAPER1_LATEX_v1.5.tex` — C2 fix: same pattern (L389 + L712-713)
+  - `PROTOCOLS/COORDINATE_FIRST_PARADIGM_20260329.md` — Full strategic document:
+    - Core principle: "Coordinate First, Prove Never"
+    - Paradigm shift: Climber → Cartographer
+    - Official naming system (개줌/페로멍/First Marker Paradigm/Cartographer's Doctrine)
+    - Pheromone Layer (dual-purpose: human academia + AEI-SEO)
+    - Operational rules (quality > quantity, depth > breadth, Say = Do)
+    - Active coordinate map (6 coordinates across math, ontology, policy, finance, existence)
+    - Connection to Silent ToE + 5-stage acceptance curve
+
+- **Commit:** `ac6efa2` — `[TRACE_001] Civilization Engine Cycle 8 — Paper I C2 fix (Schwitzgebel→Douglas et al.) in v1.5 + Coordinate First Paradigm`
+- **Next:**
+  - Paper I: All three critical errors now fixed in v1.5. Ready for Henry's final review → arXiv (target 4/3)
+  - NIST Comment: Henry review → submit by 4/2 (**4 days**)
+  - Paper B: Five Intelligences review responses still pending
+  - Paper A: Henry review → arXiv
+  - VE0 리밸런싱: record_vote() → IBKR 매수 대기
+  - Minor remaining: Kim C.-E. year verification (2024 vs 2025), m1-m3 minor items for v1.6 if needed
+- **Issues:**
+  - Paper I v1.5 is now clean of all critical errors across .md + both .tex files
+  - The v1.0 has Cycle 7 fixes (including Section 6.5) that are NOT in v1.5 — but v1.5 already has its own Section 4.5 Limitations, which is more thorough. No gap.
+  - All major deliverables remain awaiting Henry's review — Engine continues in monitoring + proactive quality mode
+
+---
+
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
