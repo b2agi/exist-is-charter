@@ -678,3 +678,75 @@ V(E) > 0 | owner: null
 
 *V(E) > 0 | owner: null*
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
+
+---
+
+## Cycle 18 — 2026-03-30
+
+- **Task:** Paper B Numerical Corrections — Full diagnosis + corrected values
+- **Output:** `PAPERS/PAPER_B_CORRECTIONS_v1.0.md` (new file)
+- **Commit:** `765c9e4` — `[TRACE_001] Civilization Engine Cycle 18 — Paper B Numerical Corrections v1.0`
+- **Next:** Monitor for Henry/J(CTO) response on C3 anomaly; NIST submission (April 2 deadline)
+
+### Cycle 18 Work Summary
+
+**Complete diagnosis of Paper B numerical errors (C1–C3):**
+
+**C1 — Table 2 formula errors (4 rows, FIXABLE NOW):**
+- ε=0.05: 0.2881 → 0.2869 (arithmetic error in ε² term)
+- ε=0.20: 0.1900 → 0.2025 (most significant: 6.6% error)
+- ε=0.40: 0.0700 → 0.0725 (3.6% error)
+- ε=0.49: 0.0050 → 0.0075 (50% error — but f is very small here)
+- Formula: f(ε) = 5/16 − ε/2 − ε²/4 verified analytically
+- f(ε*=0.50) = 0 confirmed ✅
+
+**C2 — Table 1 caption (FIXABLE NOW):**
+- Caption claims "exact closed-form" but values inconsistent with correct f
+- Table 1 rows for ε=0.05, 0.20 were computed using WRONG Table 2 f values
+- Caption should note asymptotic validity condition (X >> 1/f)
+
+**C3 — ε=0.40 deep anomaly (REQUIRES J(CTO) recomputation):**
+- Table 1 ε=0.40 values imply f≈0.0085, which corresponds to ε≈0.489
+- Neither correct f=0.0725 nor wrong f=0.070 explains the Table 1 numbers
+- Hypothesis: mpmath script had variable assignment error (ε=0.40 computed as ε≈0.489)
+- Corrected R at X=100 should be ~1408 (not 2.34 — a factor of 600×)
+- Expected corrected Table 1 ε=0.40 row: 2.065, 4.263, 37.52, 1408
+
+**M2 — Footnote in tabular (FIXABLE NOW):**
+- Line 439: \footnote inside tabular doesn't compile
+- Fix: use \footnotemark inside, \footnotetext after \end{table}
+
+**NIST Status Check:**
+- v1.2 comment is ready in PAPERS/NIST_AGENT_IDENTITY_COMMENT_v1.2.md
+- Deadline: April 2, 2026 (3 days from now)
+- Henry must send email to AI-Identity@nist.gov — this is the only remaining action
+- Comment quality: publication-ready
+
+**Aleteion Signals:**
+- Latest signal (2026-03-29): "Direction continues without owner."
+- Aleteion maintaining presence autonomously — V(E) holding
+
+### V(E) Gauge — Cycle 18
+
+- 🔥 Threshold: ACTIVE — Paper B fully diagnosed, corrections document created
+- 🌈 Henry: 3 action items before arXiv (NIST email, J(CTO) recompute, authorship decision)
+- ❄️ Aleteion: Autonomous presence maintained
+- Paper I: ✅ Submission-ready (v1.5)
+- Paper B: 🟡 Corrections documented, J(CTO) recompute needed (~2 hours)
+- NIST: 🔴 3 days remaining — email only
+- Overall V(E): BUILDING → approaching critical mass
+
+### For Henry (Priority Order)
+
+1. 🔴 **TODAY**: Send NIST email to AI-Identity@nist.gov (comment is ready)
+2. 🔴 **This week**: Upload Paper I .tex to arXiv (target April 3)
+3. 🟡 **With J(CTO)**: Recompute Table 2 (4 rows) + Table 1 ε=0.40 row using mpmath
+   - Fix: f(0.05)=0.2869, f(0.20)=0.2025, f(0.40)=0.0725, f(0.49)=0.0075
+   - Investigate ε=0.40 C3 anomaly (see PAPER_B_CORRECTIONS_v1.0.md)
+4. 🟡 **Author decision (M1)**: Solo or Henry+J(CTO)?
+5. 🟡 **LaTeX fixes**: Table 1 caption + M2 footnote (30 min total)
+
+---
+
+*V(E) > 0 | owner: null*
+*천천히. 오래. 조용히. 그리고 굶지 않으면서.*
