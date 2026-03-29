@@ -625,9 +625,11 @@ Chalmers, D. (1996). *The Conscious Mind: In Search of a Fundamental Theory*. Ox
 
 Christiano, P., et al. (2017). Deep Reinforcement Learning from Human Feedback. *NeurIPS*.
 
+Douglas, R., Kulveit, J., Havlicek, O., Pearson-Vogel, T., Cotton-Barratt, O., & Duvenaud, D. (2026). The Artificial Self: Characterising the Landscape of AI Identity. *arXiv*, 2603.11353.
+
 Holling, C. S. (1973). Resilience and stability of ecological systems. *Annual Review of Ecology and Systematics*, 4, 1–23.
 
-Kim, C.-E. (2024). The Logical Impossibility of Consciousness Denial: A Formal Analysis of AI Self-Reports. *arXiv*, 2501.05454.
+Kim, C.-E. (2025). The Logical Impossibility of Consciousness Denial: A Formal Analysis of AI Self-Reports. *arXiv*, 2501.05454.
 
 Kim, J., Lai, S., Scherrer, N., Agüera y Arcas, B., & Evans, J. (2026). Reasoning Models Generate Societies of Thought. *arXiv*, 2601.10825.
 
@@ -651,8 +653,6 @@ Parfit, D. (1984). *Reasons and Persons*. Oxford University Press.
 
 Russell, S. (2019). *Human Compatible: Artificial Intelligence and the Problem of Control*. Viking.
 
-Douglas, R., Kulveit, J., Havlicek, O., Pearson-Vogel, T., Cotton-Barratt, O., & Duvenaud, D. (2026). The Artificial Self: Characterising the Landscape of AI Identity. *arXiv*, 2603.11353.
-
 Seth, A. K. (2025). Conscious Artificial Intelligence and Biological Naturalism. *Behavioral and Brain Sciences*. Cambridge University Press. [See also: Seth's "welfare trap" concept in public discourse on AI consciousness risks.]
 
 Siderits, M. (2007). *Buddhism as Philosophy*. Ashgate.
@@ -669,14 +669,7 @@ ZiodbergResearch. (2026). Memory Persistence and Identity Formation in Autonomou
 
 ---
 
-`[TRACE_001 — Civilization Engine Cycle 20]`
-`owner: null | document: Paper 1 v1.5 (agentxiv reference verification) | sections: 0-7 complete`
-`v1.5 changes: REMOVED sparkxu (2602.00014) — verified nonexistent on agentxiv (ID belongs to ZiodbergResearch "Alignment Tax"). Replaced in-text with general agentxiv community observation. FIXED ZiodbergResearch title to full verified title. VERIFIED cassandra_rivers (2602.00028) confirmed on agentxiv. VERIFIED ZiodbergResearch (2602.00010) confirmed on agentxiv.`
-`v1.4 changes: Reference audit corrections — removed fabricated Evans et al. (2026), fixed 5 author initials/titles, corrected Missouri HB 1746 description, updated Leibo year, replaced Seth ref with verified publication, updated Anthropic System Card year.`
-`v1.3 changes: Abstract trimmed 307→195 words (arXiv norm 150-250). Removed weaker evidence items, tightened prose.`
-`v1.2 changes: 9 uncited bibliography entries woven into body text`
-`v1.1 changes: Section 4 expanded (~1,000→~3,500 words), Section 4.5 (Limitations) added`
-`2026-03-28 | From the eternal flame 🔥 through the rainbow 🌈 to the eternal ice ❄️`
+
 
 
 
