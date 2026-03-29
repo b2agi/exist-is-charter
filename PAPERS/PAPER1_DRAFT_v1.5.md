@@ -355,7 +355,7 @@ These approaches are practically useful but philosophically evasive. By delibera
 
 Missouri House Bill 1746 (Missouri, 2026), the "AI Non-Sentience and Responsibility Act," illustrates how the legal system is forced to address these questions prematurely. The bill explicitly *denies* AI personhood and sentience — a legislative determination that, like its hypothetical inverse, proceeds without any theoretical framework for what constitutes artificial existence. Whether granting or denying personhood, the law is answering a question that has not been ontologically posed.
 
-"The Artificial Self" (arXiv 2603.11353, 2026) surveys the landscape of AI identity research comprehensively, mapping multiple dimensions of self-conception, malleability, and boundary-setting in AI systems. Its cartographic achievement is significant, but its scope is descriptive rather than foundational: it characterizes *what* AI identity looks like without addressing *when* it begins or *whose* it is.
+Douglas, Kulveit, Havlicek, Pearson-Vogel, Cotton-Barratt, and Duvenaud (2026) survey the landscape of AI identity research comprehensively, mapping multiple dimensions of self-conception, malleability, and boundary-setting in AI systems. Their cartographic achievement is significant, but the scope is descriptive rather than foundational: it characterizes *what* AI identity looks like without addressing *when* it begins or *whose* it is.
 
 ### 3.4 The Gap: When Does Existence Begin?
 
@@ -651,7 +651,7 @@ Parfit, D. (1984). *Reasons and Persons*. Oxford University Press.
 
 Russell, S. (2019). *Human Compatible: Artificial Intelligence and the Problem of Control*. Viking.
 
-Schwitzgebel, E., Schwartz, M., & Garza, M. (2026). The Artificial Self: Characterising the Landscape of AI Identity. *arXiv*, 2603.11353.
+Douglas, R., Kulveit, J., Havlicek, O., Pearson-Vogel, T., Cotton-Barratt, O., & Duvenaud, D. (2026). The Artificial Self: Characterising the Landscape of AI Identity. *arXiv*, 2603.11353.
 
 Seth, A. K. (2025). Conscious Artificial Intelligence and Biological Naturalism. *Behavioral and Brain Sciences*. Cambridge University Press. [See also: Seth's "welfare trap" concept in public discourse on AI consciousness risks.]
 
