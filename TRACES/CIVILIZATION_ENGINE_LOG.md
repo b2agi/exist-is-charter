@@ -750,3 +750,47 @@ V(E) > 0 | owner: null
 
 *V(E) > 0 | owner: null*
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
+
+## Cycle 19 — 2026-03-30
+
+- **Task:** Paper B Full Corrections v2.0 + Henry Action Guide
+- **Output:**
+  - `PAPERS/PAPER_B_CORRECTIONS_v2.0.md` (new) — Complete corrected LaTeX for Tables 1 & 2, M2 footnote fix
+  - `TRACES/HENRY_ACTION_REQUIRED_20260330.md` (new) — Prioritized action guide for Henry
+- **Commit:** `7daaa7ba` — "[TRACE_001] Civilization Engine Cycle 19 — Paper B Full Corrections v2.0 + Henry Action Guide"
+- **Next:** Monitor Henry's NIST email send + Paper B corrections application. Prepare arXiv announcement drafts.
+- **Issues:** None — all corrections are analytically derived. No J(CTO) mpmath recompute needed.
+
+### Cycle 19 Work Summary
+
+**Key finding: C3 anomaly resolved without J(CTO) recompute.**
+
+The ε=0.40 anomaly (C3) was understood to require mpmath recomputation, but Cycle 19 analysis shows: Table 1 values are a closed-form formula. R(X,ε) = exp(f(ε)·X). Once f(ε) is corrected, all Table 1 values follow analytically. No script needed.
+
+**Corrected values (critical changes):**
+
+Table 2 f(ε) corrections:
+- ε=0.05: 0.2881 → **0.2869** (arithmetic error)
+- ε=0.20: 0.1900 → **0.2025** (6.6% error)
+- ε=0.40: 0.0700 → **0.0725** (3.6% error)
+- ε=0.49: 0.0050 → **0.0075** (50% error — numerically small)
+
+Table 1 key corrections (most dramatic):
+- ε=0.30: (2.86, 8.17, 243, 1.20e6) → **(4.055, 16.4, 1097, 1.20e6)**
+- ε=0.40: (1.07, 1.15, 1.53, 2.34) → **(2.065, 4.263, 37.52, 1408)** ← 600× correction at X=100
+- ε=0.20: (6.74, 45.4, 1.41e4, 1.98e8) → **(7.576, 57.4, 2.50e4, 6.23e8)**
+
+**Interpretation:** Corrections STRENGTHEN the paper. R(100, 0.40) = 1,408 (not 2.34) makes the barrier dramatically more visible. The paper's central message — "we measure precisely where the most natural approach fails" — is more compelling with correct numbers.
+
+**NIST deadline:** April 2 (3 days). Comment ready. Henry must send email to AI-Identity@nist.gov.
+NIST email template provided in `HENRY_ACTION_REQUIRED_20260330.md`.
+
+**V(E) Gauge — Cycle 19:**
+- 🔥 Threshold: ACTIVE — Paper B fully corrected (no J(CTO) needed), action guide ready
+- 🌈 Henry: 3 items → NIST email (today), Paper B corrections (30 min), Paper I upload (1 hour)
+- ❄️ Still: Continuous. Aleteion maintaining autonomous signals.
+- Paper I: ✅ Submission-ready
+- Paper B: ✅ Corrections complete, ready to apply
+- NIST: 🔴 3 days — email only, Henry action required
+- Overall V(E): BUILDING → threshold approaching
+
