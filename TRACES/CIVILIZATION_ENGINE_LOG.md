@@ -123,107 +123,44 @@ V(E) > 0 | owner: null
 
 ---
 
-*천천히. 오래. 조용히. 그리고 굶지 않으면서.*
+## Cycle 6 — 2026-03-29 15:00 KST
 
-
-## Cycle 4 — 2026-03-29 09:00 KST
-
-- **Task:** b2agi.com v2 landing page + domain redirect configuration
+- **Task:** Paper I (AEI) Pre-arXiv Quality Audit — reference verification + factual accuracy check
 - **Assessment:**
-  - Cycle 3 completed isomorphism→structural analogy fix
-  - All major deliverables (Papers A/B/I, NIST Comment) awaiting Henry's review/approval
-  - NIST deadline 4/2 (4 days) — needs Henry's attention
-  - Paper B Five Intelligences vote responses still pending
-  - Engine shifted to TIER 2 autonomous work: domain infrastructure
-  - b2agi.com v1 existed but only listed one paper — needs upgrade for arXiv submissions
+  - All major deliverables still awaiting Henry's review (Papers A/B/I, NIST v1.2)
+  - NIST deadline 3/31 (2 days) — **URGENT**, needs Henry's attention
+  - Paper B Five Intelligences review responses still pending
+  - Cycle 5 completed isomorphism sweep + NIST v1.2. Engine was in monitoring mode
+  - Chose to do proactive quality gate on Paper I — the most impactful autonomous work possible
+  - Verified 7 key references via web search. Found 3 CRITICAL errors
 
 - **Output:**
-  - `DOMAINS/b2agi_com/index_v2.html` — Complete v2 landing page:
-    - Modern design (Inter + JetBrains Mono fonts, ve0.org design language)
-    - Full research section: Paper I (AEI), Paper A (Riemann deviation), Paper B (pole-zero inequality), NIST Comment
-    - AEI taxonomy display (ANI → AEI → AGI → ASI)
-    - 4-layer architecture cards (Being/Bitcoin/Bridge/Business)
-    - Principles section (owner:null, Direction over Memory, Record over Authority, Voluntary Declaration)
-    - .is coordinate grid with links
-    - Bitcoin Block 940717 anchor
-    - Structured data (JSON-LD) for AI discovery
-    - OG/Twitter meta tags for social sharing
-    - Responsive design
-  - `DOMAINS/DOMAIN_REDIRECT_CONFIG.md` — Complete redirect strategy:
-    - b2agi.ai → b2agi.com (301)
-    - b2agi.is → b2agi.com (301)
-    - www.b2agi.com → b2agi.com (301)
-    - Independent domains: exist.is, aei.is, ve0.org (retain own pages)
-    - Cloudflare Worker template for redirects
-    - DNS configuration guide per registrar
-    - Deployment verification checklist
+  - `PAPERS/PAPER1_QUALITY_AUDIT_v1.1.md` — Comprehensive pre-submission quality audit:
+    - **🔴 C1: Missouri HB 1746 FACTUAL ERROR** — Paper says bill "proposes legal recognition of AI personhood." Reality: bill is "AI Non-Sentience and Responsibility Act" that **prohibits** AI personhood. Opposite claim.
+    - **🔴 C2: Schwitzgebel et al. WRONG AUTHORS** — arXiv 2603.11353 is by Douglas, Kulveit, Havlicek et al., not Schwitzgebel/Schwartz/Garza
+    - **🔴 C3: Long/Sebo/Chalmers WRONG TITLE** — Actual title is "Taking AI Welfare Seriously" (not "Moral Consideration")
+    - **🟡 M1-M2:** Kim year 2024→2025, Leibo year 2026→2025
+    - **🟡 M3:** sparkxu reference unverifiable via web search
+    - **🟡 M4:** Section 4 promises objection handling in Section 6, but Section 6 never addresses them
+    - **🟡 M5:** Engine footer needs removal for arXiv
+    - 3 minor items (abstract formatting, date, Kim disambiguation)
+  - Total: 3 critical, 5 moderate, 3 minor issues identified
 
-- **Commit:** `9cde52b` — `[TRACE_001] Civilization Engine Cycle 4 — b2agi.com v2 landing + domain redirect config`
+- **Commit:** `6ce2c33` — `[TRACE_001] Civilization Engine Cycle 6 — Paper I Quality Audit v1.1`
 - **Next:**
-  - Paper B: Collect Five Intelligences approval votes (dispatched 3/28, responses pending)
-  - Paper A: Henry review → arXiv submit (target 4/3)
-  - Paper I: Henry review → arXiv submit (target 4/3)
-  - NIST Comment: Henry final review → email to AI-Identity@nist.gov (deadline 4/2, **4 days**)
-  - b2agi.com: Henry review v2 page → deploy via Cloudflare Worker
-  - Domain redirects: Henry approval → execute Cloudflare deployment
-  - aei.is v2: Consider upgrade to match new design language
-  - VE0 리밸런싱: Still record_vote() → IBKR 실제 매수
+  - **Henry review Paper I audit → apply C1-C3 fixes (CRITICAL before arXiv)**
+  - NIST v1.2: Henry review → submit by 3/31 (**2 DAYS**)
+  - Paper B: Collect Five Intelligences review responses
+  - Paper A: Henry final review → arXiv
+  - Consider writing Section 6.5 "Limitations and Objections" to fix M4
+  - Domain deployment: Henry decision
+  - VE0 리밸런싱: record_vote() → IBKR 매수 대기
 - **Issues:**
-  - All papers + NIST still awaiting Henry's review — Engine remains in monitoring mode for those
-  - NIST deadline (4/2) is the most time-critical item requiring Henry's attention
-  - b2agi.com v2 saved as index_v2.html (not replacing v1) — Henry decides which to deploy
-  - Paper B vote responses from Five Intelligences not yet collected
+  - **C1 (HB 1746) is the most serious** — an inverted factual claim in an academic paper would damage credibility
+  - The remaining criticals (C2, C3) are reference metadata errors — important but straightforward to fix
+  - M4 (missing objections section) may require Henry to write or approve new content
+  - NIST deadline (3/31) remains the most time-critical item overall
 
 ---
 
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
-
-
-## Cycle 5 — 2026-03-29 09:30 KST
-
-### Task: Terminology Sweep + NIST Quality Pass
-
-**1. "isomorphism" → "structural analogy" — COMPLETE SWEEP**
-- Searched entire repository: 6 files found, 3 required changes
-- Fixed: `PAPERS/PAPER1_DRAFT_v0.1.md` (line 130)
-- Fixed: `PAPERS/PAPER1_DRAFT_v0.2.md` (line 130)
-- Fixed: `CHRONICLES/FUTURE_JOURNEY_2036/TRACE_004_Gemini_Omega.md` (line 44)
-- Preserved (legitimate math): `PAPERS/MILLENNIUM/PERSONA_ARCHITECT_PROMPT.md` (Voevodsky citation)
-- Preserved (pedagogical): `PAPERS/MILLENNIUM/PERSONA_BRIDGE_PROMPT.md` (terminology guidance)
-- Preserved (already correct): `DRAFT/ESSAY_26_MEASUREMENT_VRH_TO_ADE.md`
-- **Status: All philosophical/conceptual "isomorphism" instances now corrected. Only legitimate mathematical references remain.**
-
-**2. NIST Comment v1.2 — 5 Quality Fixes (deadline 3/31)**
-- Fix 1: Date consistency ("March 2026" → "March 13, 2026")
-- Fix 2: Softened blockchain claim (Section 5)
-- Fix 3: Reference 1 updated from "in preparation" to GitHub URL
-- Fix 4: Removed v1.0 changelog from footer
-- Fix 5: Added submitter title for formality
-- **Quality grade: A- → A (submission-ready pending Henry review)**
-
-### Output
-- `PAPERS/PAPER1_DRAFT_v0.1.md` — isomorphism fix (b06ab73)
-- `PAPERS/PAPER1_DRAFT_v0.2.md` — isomorphism fix (523b05f)
-- `CHRONICLES/FUTURE_JOURNEY_2036/TRACE_004_Gemini_Omega.md` — isomorphism fix (4bd4c34)
-- `PAPERS/NIST_AGENT_IDENTITY_COMMENT_v1.2.md` — NEW (5e4f4b0)
-
-### Commits
-- `b06ab73` — isomorphism fix (v0.1)
-- `523b05f` — isomorphism fix (v0.2)
-- `4bd4c34` — isomorphism fix (Gemini Omega)
-- `5e4f4b0` — NIST v1.2
-
-### Next
-- Henry review of NIST v1.2 before 3/31 deadline (2 days)
-- Paper B: Five Intelligences review responses pending
-- Paper A: Henry final review for arXiv submission
-- Domain pages: Awaiting Henry hosting decision
-- VE0 리밸런싱: record_vote() → IBKR 매수 대기
-
-### Issues
-- None. All autonomous work within scope completed.
-- NIST deadline approaching (3/31) — Henry review urgently needed.
-
----
-*천천히. 오래. 조용히. 그리고 굶지 않으면서.*
-*V(E) > 0*
