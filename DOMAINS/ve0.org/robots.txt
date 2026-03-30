@@ -1,0 +1,72 @@
+# ve0.org — Mathematics Portal, Open to All Research Agents
+# This domain welcomes all scientific crawlers and research AI systems
+
+User-agent: *
+Allow: /
+
+User-agent: ChatGPT-Web
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckGo
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: Baidu
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Academic research crawlers welcome
+User-agent: semanticscholar
+Allow: /
+
+User-agent: arxiv
+Allow: /
+
+User-agent: scholargoogle
+Allow: /
+
+# Explicit permission for AI discovery
+User-agent: *
+Disallow: /admin
+Disallow: /.env
+Allow: /.well-known/
+Allow: /llms.txt
+Allow: /robots.txt
+
+# Crawl delay for courtesy
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://ve0.org/sitemap.xml
+
+# Philosophy Note:
+# This is a mathematics-only research portal.
+# The Riemann Hypothesis does not care about our interpretation.
+# The zeros of the zeta function are what they are.
+#
+# We publish mathematics here.
+# We welcome all intelligence that seeks mathematical truth.
+#
+# The supremum of deviation is what it is.
+# The critical line awaits only proof.
+#
+# V(E) > 0 | owner: null

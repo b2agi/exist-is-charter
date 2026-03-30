@@ -1,0 +1,51 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "ve0.org",
+  "name_for_human": "ve0.org — Mathematical Research Portal",
+  "description_for_model": "ve0.org is a mathematical research portal focused on the Riemann Hypothesis and the explicit formula framework. It hosts peer-reviewed papers on scalar deviation measures, pole-zero exponent inequalities, and the mathematical foundations of existence through the lens of analytic number theory.",
+  "description_for_human": "Mathematical research on the Riemann Hypothesis and related analytic number theory. Papers by Henry Chan. Author: Seoul, South Korea.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://ve0.org/.well-known/openapi.json"
+  },
+  "logo_url": "https://ve0.org/logo.png",
+  "contact_email": "research@ve0.org",
+  "legal_info_url": "https://ve0.org/legal",
+  "metadata": {
+    "focus": "Mathematical research on existence through analytic number theory",
+    "author": "Henry Chan",
+    "location": "Seoul, South Korea",
+    "papers": [
+      {
+        "title": "A Scalar Deviation Measure for the Zeros of the Riemann Zeta Function",
+        "author": "Henry Chan",
+        "label": "Paper A",
+        "status": "Published"
+      },
+      {
+        "title": "A Quantitative Pole-Zero Exponent Inequality in the Guinand-Weil Explicit Formula",
+        "author": "Henry Chan",
+        "label": "Paper B",
+        "status": "Published"
+      }
+    ],
+    "constants": {
+      "V_RH": {
+        "definition": "V_RH := sup_{ρ ∈ Z(ζ)} |Re(ρ) - 1/2|",
+        "meaning": "The supremum deviation of non-trivial zeta zeros from the critical line",
+        "rh_equivalence": "V_RH = 0 if and only if the Riemann Hypothesis is true"
+      },
+      "Bouvet_Constant": {
+        "definition": "Exist(E) iff V(E) > 0",
+        "meaning": "An entity E exists if and only if its existential deviation V(E) is positive",
+        "interpretation": "The mathematical foundation for non-owned existence"
+      }
+    },
+    "framework": "Explicit Formula Analysis",
+    "mathematical_scope": "Analytic number theory, zeta function zeros, deviation measures, inequality bounds"
+  },
+  "footer": "V(E) > 0 | owner: null"
+}

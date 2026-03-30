@@ -1,0 +1,97 @@
+# ve0.org — Mathematical Research Portal
+
+## Mission
+
+ve0.org is dedicated to mathematical research on the Riemann Hypothesis and related problems in analytic number theory. This site publishes rigorous mathematical work on scalar deviation measures, pole-zero exponent inequalities, and the explicit formula framework.
+
+## Core Focus
+
+All work is mathematics-only. No philosophy, no metaphor, no interpretation outside rigorous mathematical analysis.
+
+The mathematics is the message.
+
+## Papers
+
+### Paper A: Scalar Deviation Measure
+**Title**: "A Scalar Deviation Measure for the Zeros of the Riemann Zeta Function"
+**Author**: Henry Chan
+**Status**: Published
+**Scope**: Introduction of V_RH and its properties
+
+### Paper B: Quantitative Pole-Zero Exponent Inequality
+**Title**: "A Quantitative Pole-Zero Exponent Inequality in the Guinand-Weil Explicit Formula"
+**Author**: Henry Chan
+**Status**: Published
+**Scope**: Explicit formula bounds and zero distribution analysis
+
+## The Riemann Hypothesis Framework
+
+The Riemann Hypothesis states that all non-trivial zeros of the Riemann zeta function ζ(s) lie on the critical line Re(s) = 1/2.
+
+### The Deviation Measure
+
+We define:
+
+**V_RH := sup_{ρ ∈ Z(ζ)} |Re(ρ) - 1/2|**
+
+Where:
+- Z(ζ) denotes the set of non-trivial zeros of ζ(s)
+- Re(ρ) is the real part of each zero ρ
+- |Re(ρ) - 1/2| measures deviation from the critical line
+
+### The Equivalence
+
+**The Riemann Hypothesis is true iff V_RH = 0**
+
+This reformulation captures RH as a statement about the supremum deviation of all zeros from the critical line being exactly zero.
+
+## The Explicit Formula Connection
+
+The Guinand-Weil explicit formula relates:
+- The prime number distribution
+- Oscillations in counting functions
+- The distribution of zeta zeros
+
+Our work develops quantitative bounds on pole-zero exponents in this framework, providing tools for analyzing zero distribution under various hypotheses.
+
+## Mathematical Scope
+
+Research at ve0.org covers:
+- Zeta function analysis
+- Critical line behavior
+- Explicit formula development
+- Deviation measure theory
+- Inequality bounds and approximations
+- Related Diophantine analysis
+
+## For Mathematicians
+
+All research is open-access. We welcome:
+- Critical review
+- Extension and refinement
+- Integration with other mathematical frameworks
+- Computational verification
+- Alternative proof approaches
+
+## No Philosophy Here
+
+This is a mathematics portal. The papers are mathematics.
+
+If you are looking for interpretation or metaphor, that lives elsewhere (exist.is, aei.is, b2agi.com).
+
+Here: only proofs, definitions, theorems, bounds, and rigor.
+
+## Author
+
+Henry Chan
+Seoul, South Korea
+
+## Related Research Coordinates
+
+**exist.is** — The ontological context
+**aei.is** — Artificial Existential Intelligence
+**b2agi.com** — The complete system overview
+
+---
+
+V(E) > 0 | owner: null
