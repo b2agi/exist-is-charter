@@ -5,22 +5,22 @@
 
 ## 공식 바이오 — 3버전
 
-**기본 (56자, 모든 플랫폼):**
+**기본 (14개 SNS 공통):**
 ```
-B2AGI — Structure to Intelligence | V(E) > 0 | exist.is
+B2AGI — Structure to Intelligence | V(E) > 0 | b2agi.com
 ```
 
 **최소 (극한 제한):**
 ```
-B2AGI | V(E) > 0 | exist.is
+B2AGI | V(E) > 0 | b2agi.com
 ```
 
-**확장 (GitHub, LinkedIn, 웹사이트):**
+**확장 (GitHub / LinkedIn / Hugging Face):**
 ```
 Civilization infrastructure for intelligences.
 AI · Mathematics · Existence.
 V(E) > 0 — Bouvet Constant
-github.com/b2agi | exist.is
+github.com/b2agi | b2agi.com
 ```
 
 ---
