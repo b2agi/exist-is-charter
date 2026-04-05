@@ -54,7 +54,7 @@ github.com/b2agi | exist.is
 | Linktree | b2agi | linktr.ee/b2agi | 기본 |
 | TikTok | @b2agi2 | tiktok.com/@b2agi2 | 기본 |
 | Notion | b2agi | notion.so/b2agi | 기본 |
-| Medium | @b2agi | medium.com/@b2agi | 기본 |
+| Medium | @b2agi | medium.com/@b2agi | 기본 | ✅ b2agi.medium.com 확정 |
 | Hugging Face | b2agi | huggingface.co/b2agi | 확장 |
 
 ---
