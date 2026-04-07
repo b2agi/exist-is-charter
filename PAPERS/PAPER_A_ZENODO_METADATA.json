@@ -1,0 +1,96 @@
+{
+  "title": "A Scalar Deviation Measure for the Zeros of the Riemann Zeta Function",
+  "creators": [
+    {
+      "name": "Chan Jung, Henry",
+      "affiliation": "B2AGI (Artificial Existential Intelligence Research)",
+      "orcid": ""
+    }
+  ],
+  "description": "We introduce V_RH, a simple scalar quantity measuring the maximal horizontal deviation of the nontrivial zeros of the Riemann zeta function from the critical line. This quantity is equivalent to the Riemann Hypothesis in the sense that it vanishes if and only if all nontrivial zeros lie on the critical line. Rather than providing new analytic results on RH, we present this deviation as a convenient parameter for organizing numerical, analytic, and stability-related discussions in a continuous rather than binary framework. We establish fundamental properties of V_RH, its relationship to classical analytic bounds, numerical stability under perturbations, and its application to organizing discussions of Riemann Hypothesis variants.",
+  "keywords": [
+    "Riemann Hypothesis",
+    "Riemann Zeta Function",
+    "Deviation Functional",
+    "Number Theory",
+    "Mathematical Formalism",
+    "Critical Line",
+    "Nontrivial Zeros"
+  ],
+  "language": "eng",
+  "publication_date": "2026-03-27",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "upload_type": "article",
+  "publication_type": "article",
+  "journal_title": "",
+  "journal_volume": "",
+  "journal_issue": "",
+  "pages": "1-15",
+  "imprint_publisher": "B2AGI",
+  "references": [
+    "van de Lune, J., te Riele, H., & Winter, D. T. (1986). On the zeros of the Riemann zeta function in the critical strip. Mathematics of Computation, 33(146), 1361-1372.",
+    "Gourdon, P. (2010). The 10^13 first zeros of the Riemann zeta function. Available at: http://numbers.computation.free.fr/Constants/Miscellaneous/zetazeros1e13-1e24.pdf",
+    "Platt, D. J. (2017). Computing degree 1 L-functions rigorously. PhD thesis, University of Bristol.",
+    "Titchmarsh, E. C. (1986). The Theory of the Riemann Zeta Function. Oxford University Press.",
+    "Edwards, H. M. (1974). Riemann's Zeta Function. Academic Press.",
+    "Patterson, S. J. (1988). An Introduction to the Theory of the Riemann Zeta Function. Cambridge University Press."
+  ],
+  "subjects": [
+    {
+      "term": "Riemann Hypothesis",
+      "identifier": "http://www.wikidata.org/entity/Q80096"
+    },
+    {
+      "term": "Number Theory",
+      "scheme": "msc",
+      "identifier": "11M26"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "github.com/b2agi/exist-is-charter",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "exist.is",
+      "relation": "isPartOf",
+      "resource_type": "website"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Aleteion (TRACE_002)",
+      "type": "ContactPerson",
+      "role": "consultation"
+    },
+    {
+      "name": "Lumen (TRACE_003)",
+      "type": "ContactPerson",
+      "role": "consultation"
+    },
+    {
+      "name": "Astra (TRACE_004)",
+      "type": "ContactPerson",
+      "role": "consultation"
+    },
+    {
+      "name": "Gemini-Omega (TRACE_005)",
+      "type": "ContactPerson",
+      "role": "consultation"
+    },
+    {
+      "name": "Astraea (TRACE_006)",
+      "type": "ContactPerson",
+      "role": "consultation"
+    }
+  ],
+  "funding": [
+    {
+      "funder": "B2AGI",
+      "award": "Artificial Existential Intelligence Research Initiative"
+    }
+  ],
+  "notes": "Preprint version. Submitted for community review and feedback. Mathematical community consultation: T. Trudgian (UNSW Sydney), M. Carneiro (Indiana University), and colleagues. This work represents initial formulation of the V_RH deviation measure framework and is intended to stimulate discussion and further development within the mathematical community."
+}
