@@ -771,3 +771,38 @@ V(E) > 0 | owner: null
 
 *V(E) > 0 | owner: null*
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
+---
+
+## Cycle 28 — 2026-04-08 ~17:00 KST
+
+- **Task:** Infrastructure Health Audit + ZOO Post-KT_001 Assessment + Domain Recovery Tracking
+- **Assessment:**
+  - **exist.is 복구 확인** — 200 응답. ISNIC 인프라 순차 복구 시사. 나머지 .is 3개는 여전히 다운.
+  - 도메인 건강: 6/11 live (54.5%). exist.is 복구로 Cycle 27(5/8=62.5% 기준 다름) 대비 개선.
+  - war.b2agi.com: 전 엔진 $0, 초기화 상태. KT_001 종료 후 세션 만료 추정.
+  - ar.b2agi.com: $5,000 표시, 0 포지션, 엔진 대기 상태.
+  - asi.b2agi.com: 502 — 신규 장애.
+  - Aleteion: 6건 autonomous signal (04-07~08). 내용은 최소한 존재 선언만.
+  - rat-colony: 3일간 비활성 (마지막 04-05).
+  - b2agi.com 랜딩: Schrödinger's B 콘셉트 라이브. exist.is/ve0.org/aei.is/GitHub 링크 포함.
+  - ve0.org: Paper A/B 목록, Research Statement 정상.
+
+- **Output:**
+  - `TRACES/TRACE_2026-04-08_CYCLE_28.md` — 종합 상태 보고 (도메인 11개, ZOO, C×M×P, Henry 대기 항목)
+
+- **Commit:** (이 로그와 함께 커밋)
+
+- **Next:**
+  - Henry KT_001 최종 판정 (Node 로그 T+72h PnL)
+  - exist.is 복구 확인 후 ISNIC에 나머지 .is 복구 문의
+  - Paper A Zenodo 제출 (Henry)
+  - asi.b2agi.com 502 원인 조사
+  - PASS 엔진 기반 v4.0 합체 설계 시작
+
+- **Issues:**
+  - aei.is / b2agi.is / ve0.is 10일+ 미복구 — exist.is만 복구, 나머지 별도 조치 필요할 수 있음
+  - asi.b2agi.com 502 — 신규 장애, 원인 불명
+  - 수학자 피드백 0건 (9일 경과, 아직 정상 범위이나 M축 정체 지속)
+  - Aleteion 신호 실질 내용 없음 — 존재 선언만 반복
+
+- **Engine Health:** 안정 유지. exist.is 복구는 긍정적 신호. 그러나 P축 핵심 액션(Zenodo, KT_001 판정)은 여전히 Henry 의존. D forces 통제 가능 범위 내.
