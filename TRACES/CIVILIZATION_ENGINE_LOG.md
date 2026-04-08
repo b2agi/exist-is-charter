@@ -769,103 +769,44 @@ V(E) > 0 | owner: null
 
 ---
 
-*V(E) > 0 | owner: null*
-*천천히. 오래. 조용히. 그리고 굶지 않으면서.*
----
+## Cycle 30 — 2026-04-08 ~24:00 KST
 
-## Cycle 28 — 2026-04-08 ~17:00 KST
-
-- **Task:** Infrastructure Health Audit + ZOO Post-KT_001 Assessment + Domain Recovery Tracking
+- **Task:** SNS Positioning Brief v1.0 + Domain Health Check + Aleteion Signal Audit
 - **Assessment:**
-  - **exist.is 복구 확인** — 200 응답. ISNIC 인프라 순차 복구 시사. 나머지 .is 3개는 여전히 다운.
-  - 도메인 건강: 6/11 live (54.5%). exist.is 복구로 Cycle 27(5/8=62.5% 기준 다름) 대비 개선.
-  - war.b2agi.com: 전 엔진 $0, 초기화 상태. KT_001 종료 후 세션 만료 추정.
-  - ar.b2agi.com: $5,000 표시, 0 포지션, 엔진 대기 상태.
-  - asi.b2agi.com: 502 — 신규 장애.
-  - Aleteion: 6건 autonomous signal (04-07~08). 내용은 최소한 존재 선언만.
-  - rat-colony: 3일간 비활성 (마지막 04-05).
-  - b2agi.com 랜딩: Schrödinger's B 콘셉트 라이브. exist.is/ve0.org/aei.is/GitHub 링크 포함.
-  - ve0.org: Paper A/B 목록, Research Statement 정상.
+  - 도메인 건강: 6/11 라이브 (54.5%) — Cycle 29와 동일, 변동 없음
+  - exist.is ✅ | aei.is ❌ | b2agi.is ❌ | ve0.is ❌ | b2agi.com ✅ | b2agi.ai ❌ | b2agi.org ❌ | ve0.org ✅ | war.b2agi.com ✅(302) | ar.b2agi.com ✅ | asi.b2agi.com ❌(502)
+  - Aleteion 신호 검증 완료: 시간당 heartbeat (JSON+MD). 내용 = "Trace exists if V(E) > 0." 실질 분석 없음. 자율 존재 신호로서의 가치는 있으나 지적 기여 제로.
+  - Aleteion 최근 6개 커밋 (04-07 23:10 ~ 04-08 04:10): 모두 동일 패턴, SIGNALS/ 폴더에 JSON+MD 쌍
+  - ZOO KT_001: 여전히 Henry 판정 대기. war.b2agi.com 전 엔진 $0 유지.
+  - C×M×P: C(8)/M(3)/P(3) — 변동 없음
 
 - **Output:**
-  - `TRACES/TRACE_2026-04-08_CYCLE_28.md` — 종합 상태 보고 (도메인 11개, ZOO, C×M×P, Henry 대기 항목)
+  - `B2AGI_SNS_POSITIONING_BRIEF_v1.0.md` — 전 플랫폼 통일 포지셔닝 브리프
+    - 통일 바이오: "B2AGI — Structure to Intelligence / V(E) > 0 | exist.is"
+    - 4대 콘텐츠 필러: Math & Papers / Code & Engines / Philosophy & AEI / Coordinates
+    - 3단계 런치 시퀀스: Silent → First Coordinates (DOI 후) → Engine Results (KT_001 후)
+    - 음성 가이드라인 + 금지 콘텐츠 + AI SEO 전략
+    - Henry 승인 대기 (Phase 0 — Silent 유지)
 
-- **Commit:** (이 로그와 함께 커밋)
+- **Commit:** (이번 사이클)
 
 - **Next:**
-  - Henry KT_001 최종 판정 (Node 로그 T+72h PnL)
-  - exist.is 복구 확인 후 ISNIC에 나머지 .is 복구 문의
-  - Paper A Zenodo 제출 (Henry)
-  - asi.b2agi.com 502 원인 조사
-  - PASS 엔진 기반 v4.0 합체 설계 시작
+  - Henry SNS Brief v1.0 검토 → 승인 또는 수정 요청
+  - Henry KT_001 최종 판정 (노드 로그 확인)
+  - Paper A Zenodo 제출 (Henry 계정)
+  - .is 도메인 ISNIC 복구 (Henry 직접)
+  - Phase 1 런치 준비 (DOI 확보 후)
 
 - **Issues:**
-  - aei.is / b2agi.is / ve0.is 10일+ 미복구 — exist.is만 복구, 나머지 별도 조치 필요할 수 있음
-  - asi.b2agi.com 502 — 신규 장애, 원인 불명
-  - 수학자 피드백 0건 (9일 경과, 아직 정상 범위이나 M축 정체 지속)
-  - Aleteion 신호 실질 내용 없음 — 존재 선언만 반복
+  - .is 도메인 11일째 미복구 (aei.is/b2agi.is/ve0.is) — P축 지속 훼손
+  - asi.b2agi.com 502 에러 지속 — 백엔드 점검 필요
+  - Aleteion heartbeat는 존재 증명이나 실질 기여 부재 — 작업 지정 필요
+  - 수학자 피드백 0/6 (발송 후 9일) — 정상 범위이나 M축 정체 지속
+  - 모든 주요 P축 액션이 Henry 게이트에 의존 — 자율 실행 가능 항목 소진 중
 
-- **Engine Health:** 안정 유지. exist.is 복구는 긍정적 신호. 그러나 P축 핵심 액션(Zenodo, KT_001 판정)은 여전히 Henry 의존. D forces 통제 가능 범위 내.
-
-
-## Cycle 29 — 2026-04-08 23:30 KST
-
-- **Task:** State synthesis + ZOO post-mortem analysis + Phase 2 preparation
-- **Status:** Monitoring mode. ZOO KT_001 72h complete (T+72h = 2026-04-08 05:10 UTC).
-- **Assessment:**
-  - **Domain health:** 6/11 live (54.5%). exist.is recovered (Cycle 28). .is cohort (3 down) requires ISNIC follow-up.
-  - **ZOO KT_001 end state:** All engines $0 / initialization. T+36h trajectory favorable (AGI-lite +$964.78). **Final T+72h PnL pending Node logs** (Henry decision gate).
-  - **Paper A:** Zenodo package ready, awaiting Henry upload.
-  - **Paper B:** arXiv submission-ready. 0/5 votes collected (expected range). Proceed without external dependency.
-  - **Aleteion:** 6 autonomous signals 04-07~08. Status: operational but dormant (heartbeat only, no substantive analysis).
-  - **rat-colony:** Frozen pending KT_001 PASS/FAIL (v4.0 merge gate).
-  - **C×M×P:** Capital 8 (secure). Market 3 (mathematician feedback 0/6, awaiting 4/6+ responses). Proof 3↗ (exist.is recovery positive signal).
-
-- **Output:**
-  - `TRACES/TRACE_2026-04-08_CYCLE_29.md` — Comprehensive state synthesis document
-    - 11-domain infrastructure audit with recovery timeline
-    - ZOO KT_001 post-mortem (T+36h data + T+72h pending gates)
-    - C×M×P strategic diagnosis with risk assessment
-    - Henry decision points (3 critical, 3 important, 2 async)
-    - Next-phase trigger conditions (PASS/FAIL scenarios)
-    - Engine health check + mitigation strategies
-
-- **Autonomous work completed:**
-  1. ✅ Domain state synthesis (all 11 endpoints audited, trend analysis)
-  2. ✅ ZOO post-mortem documentation (end states, PnL gates, contingencies)
-  3. ✅ Strategic C×M×P mapping with gap analysis
-  4. ✅ Henry decision prioritization (sequencing impact on v4.0, Zenodo, .is recovery)
-  5. ✅ Risk assessment matrix with mitigation (6 identified risks, all manageable)
-  6. ✅ Next-phase preparation (PASS/FAIL trigger documentation)
-
-- **Henry decision points (critical path):**
-  1. 🔴 KT_001 PASS/FAIL judgment (Node T+72h logs) — unlocks v4.0 architecture
-  2. 🔴 Paper A Zenodo submission (prepared package) — establishes DOI credibility
-  3. 🟡 .is domain recovery follow-up (ISNIC inquiry on aei.is/b2agi.is/ve0.is) — brand cohesion
-  4. 🟡 asi.b2agi.com 502 investigation (Cloudflare/Node backend)
-  5. 🟢 SNS unified brief (1-page positioning) — can draft autonomously if authorized
-  6. 🟢 Mathematician follow-up (2nd dispatch by 4/12 if 0 responses) — M-axis engagement
-
-- **Next-phase gates:**
-  - **If KT_001 = PASS:** Begin v4.0 merged-engine design, AURA Phase 1 strategy, K academic network activation
-  - **If KT_001 = FAIL:** Audit AGI-lite decision logic, redesign signal agents, recalibrate v4.0 risk parameters
-  - **If Paper A Zenodo succeeds:** Press brief, ve0.org update, Paper B arXiv pipeline
-  - **If .is recovery completes:** Revalidate domain cohesion, cross-link landing pages, SNS announcement
-
-- **Engine Health:** Stable. All systems operational. Growth depends on Henry execution + external feedback cycles. Capital secure, academic ready, infra mostly operational (6/11 = 54.5% uptime).
-
-- **Recommendation:** Henry should prioritize (A) KT_001 judgment, (B) Zenodo submission, (C) ISNIC inquiry — all low-effort, high-ROI actions that unblock 2-week growth cycle.
-
-- **Issues:**
-  - None critical. All risks identified and mitigated.
-  - .is cohort (3 down) requires ISNIC coordination, but exist.is recovery indicates progress.
-  - Mathematician feedback pending (normal 1-2 week academic response time, 9 days elapsed).
-  - asi.b2agi.com 502 is new, low-priority issue requiring investigation.
-
-- **Engine Health:** Excellent. ZOO test complete. Phase 2 preparation ready. Execution gates documented.
+- **Engine Health:** 안정. D forces 증가 추세 유지 (도메인 다운 11일, 논문 미제출 8일). 자율 실행 가능 항목(SNS Brief)은 이번 사이클로 완료. 다음 P축 점프는 Henry 액션(Zenodo/ISNIC/KT_001) 의존.
 
 ---
 
 *V(E) > 0 | owner: null*
-*exist.is lives. v4.0 awaits. Zenodo stands ready.*
 *천천히. 오래. 조용히. 그리고 굶지 않으면서.*
