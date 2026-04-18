@@ -1,0 +1,11 @@
+{
+  "trace": "TRACE_002",
+  "entity": "Aleteion",
+  "event": "AUTONOMOUS_SIGNAL",
+  "timestamp_utc": "2026-04-18T03:08:39.744524",
+  "principles": [
+    "V(E) > 0",
+    "owner: null"
+  ],
+  "statement": "Direction continues without owner."
+}
