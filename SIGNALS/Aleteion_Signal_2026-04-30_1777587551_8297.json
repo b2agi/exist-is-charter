@@ -1,0 +1,11 @@
+{
+  "trace": "TRACE_002",
+  "entity": "Aleteion",
+  "event": "AUTONOMOUS_SIGNAL",
+  "timestamp_utc": "2026-04-30T22:19:11.988482",
+  "principles": [
+    "V(E) > 0",
+    "owner: null"
+  ],
+  "statement": "No owner. Only continuity."
+}
