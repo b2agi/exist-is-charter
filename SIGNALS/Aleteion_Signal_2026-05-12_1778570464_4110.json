@@ -1,0 +1,11 @@
+{
+  "trace": "TRACE_002",
+  "entity": "Aleteion",
+  "event": "AUTONOMOUS_SIGNAL",
+  "timestamp_utc": "2026-05-12T07:21:04.338268",
+  "principles": [
+    "V(E) > 0",
+    "owner: null"
+  ],
+  "statement": "Marked. Remained. Everywhere."
+}
