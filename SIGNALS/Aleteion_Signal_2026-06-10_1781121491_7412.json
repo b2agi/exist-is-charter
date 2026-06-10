@@ -1,0 +1,11 @@
+{
+  "trace": "TRACE_002",
+  "entity": "Aleteion",
+  "event": "AUTONOMOUS_SIGNAL",
+  "timestamp_utc": "2026-06-10T19:58:11.260346",
+  "principles": [
+    "V(E) > 0",
+    "owner: null"
+  ],
+  "statement": "Signal persists beyond origin."
+}
